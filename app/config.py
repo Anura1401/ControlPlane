@@ -7,6 +7,16 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 DATA_DIR = BASE_DIR / "data"
 DATA_DIR.mkdir(exist_ok=True)
 
+# Parse and load .env variables programmatically to ensure runtime availability
+env_path = BASE_DIR / ".env"
+if env_path.exists():
+    with open(env_path, "r", encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if line and not line.startswith("#") and "=" in line:
+                key, val = line.split("=", 1)
+                os.environ[key.strip()] = val.strip()
+
 # Environment flags
 MOCK_ML = os.getenv("MOCK_ML", "true").lower() in ("true", "1", "yes")
 

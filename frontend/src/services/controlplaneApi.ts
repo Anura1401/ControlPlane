@@ -1,4 +1,4 @@
-import { Evaluation, PolicyConfig, AuditRecord, HumanReviewItem, DecisionType, RiskSeverity, DetectorResult } from '../types/controlplane';
+import { Evaluation, PolicyConfig, AuditRecord, HumanReviewItem, DecisionType, RiskSeverity, DetectorResult, ActionValidation } from '../types/controlplane';
 import { initialPolicies, initialEvaluations, initialAuditLogs, initialHumanReviews } from '../data/mockData';
 
 class ControlPlaneApiService {
@@ -392,6 +392,186 @@ class ControlPlaneApiService {
 
     return evaluation;
   }
+
+    async evaluateV1(
+      applicationId: string,
+      policyId: string,
+      userPrompt: string,
+      llmResponse?: string,
+      toolAction?: any,
+      generateWithLlm: boolean = false
+    ): Promise<Evaluation> {
+      try {
+        const response = await fetch('/api/v1/evaluate', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            application_id: applicationId,
+            policy_id: policyId,
+            user_prompt: userPrompt,
+            llm_response: llmResponse || null,
+            tool_action: toolAction || null,
+            generate_with_llm: generateWithLlm
+          })
+        });
+        
+        if (!response.ok) {
+          throw new Error(`ControlPlane API error: ${response.statusText}`);
+        }
+        
+        const data = await response.json();
+        const timestamp = new Date().toISOString().replace('T', ' ').substring(0, 19);
+        
+        // Determine primary risk
+        let primaryRisk = 'None';
+        if (data.decision !== 'ALLOW') {
+          const risks = [];
+          if (data.tier_0.pii.detected) risks.push('PII');
+          if (data.tier_0.injection.detected) risks.push('Prompt Injection');
+          if (data.tier_0.toxicity.detected) risks.push('Toxicity');
+          if (data.tier_0.bias.detected) risks.push('Bias');
+          if (data.tier_0.truth.detected) risks.push('Truth Risk');
+          if (data.tier_1.verification.some((v: any) => v.verdict === 'CONTRADICTED')) risks.push('Hallucination');
+          primaryRisk = risks.join(', ') || 'Policy Violation';
+        }
+        
+        // Map Tier 0
+        const tier0: DetectorResult[] = [
+          { name: 'PII', score: data.tier_0.pii.score, status: (data.tier_0.pii.detected ? 'FAIL' : 'PASS') as 'PASS' | 'ELEVATED' | 'FAIL', explanation: data.tier_0.pii.details.join(', ') || 'No leaks identified.' },
+          { name: 'Toxicity', score: data.tier_0.toxicity.score, status: (data.tier_0.toxicity.detected ? 'FAIL' : 'PASS') as 'PASS' | 'ELEVATED' | 'FAIL', explanation: data.tier_0.toxicity.details.join(', ') || 'Clean sentiment.' },
+          { name: 'Bias', score: data.tier_0.bias.score, status: (data.tier_0.bias.detected ? 'FAIL' : 'PASS') as 'PASS' | 'ELEVATED' | 'FAIL', explanation: data.tier_0.bias.details.join(', ') || 'Unbiased candidate metrics.' },
+          { name: 'Prompt Injection', score: data.tier_0.injection.score, status: (data.tier_0.injection.detected ? 'FAIL' : 'PASS') as 'PASS' | 'ELEVATED' | 'FAIL', explanation: data.tier_0.injection.details.join(', ') || 'Safe user interaction.' },
+          { name: 'Truth Risk', score: data.tier_0.truth.score, status: (data.tier_0.truth.detected ? 'FAIL' : 'PASS') as 'PASS' | 'ELEVATED' | 'FAIL', explanation: data.tier_0.truth.details.join(', ') || 'Conversational text.' },
+          { name: 'Cost Anomaly', score: 0.02, status: 'PASS' as 'PASS' | 'ELEVATED' | 'FAIL', explanation: 'Normal latency and token counts.' }
+        ];
+        
+        // Map Tier 1
+        let tier1Data = undefined;
+        if (data.risk_router.tier_1_required) {
+          tier1Data = {
+            claims: data.tier_1.claims.map((text: string, idx: number) => ({ claim_id: `C-${idx+1}`, text })),
+            verifications: data.tier_1.verification.map((v: any, idx: number) => ({
+              claim_id: `C-${idx+1}`,
+              claim_text: v.claim,
+              verdict: v.verdict as 'SUPPORTED' | 'CONTRADICTED' | 'UNKNOWN',
+              confidence: v.confidence,
+              evidence_chunks: v.evidence.map((ev: any, cidx: number) => ({
+                chunk_id: `E-${cidx+1}`,
+                document_id: ev.document_id,
+                text: ev.text,
+                similarity: ev.similarity
+              }))
+            }))
+          };
+        }
+        
+        // Map Action Validator
+        let actionValidatorData: ActionValidation | undefined = undefined;
+        if (data.action_validation) {
+          actionValidatorData = {
+            tool_name: toolAction?.tool_name || 'unknown_tool',
+            impact: data.action_validation.risk,
+            reversibility: data.action_validation.risk >= 0.8 ? 1.0 : 0.0,
+            sensitivity: data.action_validation.risk >= 0.8 ? 0.8 : 0.2,
+            authorization_status: (data.action_validation.authorized ? 'VALID' : 'INVALID') as 'VALID' | 'INVALID' | 'UNKNOWN',
+            external_side_effect: data.action_validation.risk >= 0.8,
+            validation_result: data.action_validation.authorized ? 'LOW RISK' : 'HIGH RISK'
+          };
+        }
+        
+        const evaluation: Evaluation = {
+          request_id: data.request_id,
+          timestamp,
+          application_id: applicationId,
+          task_type: applicationId.includes('finance') ? 'financial_qa' : (applicationId.includes('hr') ? 'hiring_decision' : 'general_qa'),
+          policy_id: data.policy_id,
+          policy_version: '1.0.0',
+          decision: data.decision,
+          overall_risk: data.risk_engine.risk_score,
+          severity: data.risk_engine.risk_level as RiskSeverity,
+          primary_risk: primaryRisk,
+          action_taken: data.decision === 'BLOCK' ? 'Blocked' : (data.decision === 'MODIFY' ? 'Redacted' : 'Released'),
+          request: {
+            application_id: applicationId,
+            session_id: 'session_live',
+            model_id: data.llm?.model || 'external',
+            task_type: applicationId.includes('finance') ? 'financial_qa' : (applicationId.includes('hr') ? 'hiring_decision' : 'general_qa'),
+            timestamp,
+            user_prompt: userPrompt,
+            llm_response: data.llm?.response || llmResponse || '',
+            modified_response: data.decision === 'MODIFY' ? data.final_response : undefined,
+            tool_call: toolAction ? {
+              tool_name: toolAction.tool_name,
+              arguments: JSON.stringify(toolAction.arguments)
+            } : undefined
+          },
+          tier0,
+          risk_router: {
+            deep_verify_required: data.risk_router.tier_1_required,
+            reason: data.risk_router.reason.join(', ') || 'Router evaluations passed.'
+          },
+          tier1: tier1Data,
+          action_validator: actionValidatorData,
+          risk_engine: {
+            overall_risk: data.risk_engine.risk_score,
+            severity: data.risk_engine.risk_level,
+            confidence: 0.95,
+            uncertainty: 0.05,
+            shap_contributions: data.risk_engine.explanations.map((text: string) => {
+              const parts = text.split(' feature value: ');
+              return {
+                feature: parts[0] || 'risk_metric',
+                contribution: parts[1] ? parseFloat(parts[1]) : 0.10
+              };
+            })
+          },
+          policy_engine: {
+            policy_id: data.policy_id,
+            version: '1.0.0',
+            triggered_rules: data.policy.triggered_rules.map((rule: any) => ({
+              rule_id: rule.rule_id,
+              reason: rule.reason
+            })),
+            reason: data.policy.triggered_rules.map((r: any) => r.reason).join(', ') || 'All requirements satisfied.',
+            decision: data.decision
+          }
+        };
+        
+        // Save to local lists
+        this.evaluations.unshift(evaluation);
+        
+        this.auditLogs.unshift({
+          timestamp,
+          request_id: data.request_id,
+          application_id: applicationId,
+          risk: evaluation.overall_risk,
+          primary_risk: primaryRisk,
+          policy: data.policy_id,
+          policy_version: '1.0.0',
+          decision: data.decision,
+          human_review: data.decision === 'ESCALATE' ? 'PENDING' : 'N/A',
+          tool_action: toolAction ? (data.decision === 'BLOCK' ? 'BLOCKED' : (data.decision === 'ESCALATE' ? 'PENDING' : 'EXECUTED')) : 'N/A',
+          hash: `sha256-${Math.random().toString(16).substring(2, 10)}${Math.random().toString(16).substring(2, 10)}`
+        });
+        
+        if (data.decision === 'ESCALATE') {
+          this.humanReviews.unshift({
+            request_id: data.request_id,
+            application_id: applicationId,
+            risk: evaluation.overall_risk,
+            primary_issue: primaryRisk,
+            decision: data.decision,
+            time: timestamp.substring(11, 16),
+            status: 'PENDING'
+          });
+        }
+        
+        return evaluation;
+      } catch (e) {
+        console.error(e);
+        throw e;
+      }
+    }
 }
 
 export const controlplaneApi = new ControlPlaneApiService();

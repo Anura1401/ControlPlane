@@ -26,6 +26,7 @@ export const LiveEvaluation: React.FC<LiveEvaluationProps> = ({
   const [isCostAnomaly, setIsCostAnomaly] = useState<boolean>(false);
 
   // Flow State
+  const [evaluationMode, setEvaluationMode] = useState<'predefined' | 'gemini'>('predefined');
   const [isRunning, setIsRunning] = useState<boolean>(false);
   const [currentStage, setCurrentStage] = useState<number>(-1);
   const [evaluationResult, setEvaluationResult] = useState<Evaluation | null>(null);
@@ -36,24 +37,26 @@ export const LiveEvaluation: React.FC<LiveEvaluationProps> = ({
 
   // Load selected scenario into form inputs
   useEffect(() => {
-    const scenario = demoScenarios.find(s => s.id === selectedScenarioId);
-    if (scenario) {
-      setApplication(scenario.application);
-      setPolicyId(scenario.policy);
-      setPrompt(scenario.prompt);
-      setLlmResponse(scenario.response);
-      setRetrievedContext(scenario.context);
-      setToolName(scenario.toolName);
-      setToolArgs(scenario.toolArgs);
-      setIsCostAnomaly(!!(scenario as any).costAnomaly);
-      
-      // Clear previous results
-      setEvaluationResult(null);
-      setCurrentStage(-1);
-      setRecheckPassed(false);
-      setIsRechecking(false);
+    if (evaluationMode === 'predefined') {
+      const scenario = demoScenarios.find(s => s.id === selectedScenarioId);
+      if (scenario) {
+        setApplication(scenario.application);
+        setPolicyId(scenario.policy);
+        setPrompt(scenario.prompt);
+        setLlmResponse(scenario.response);
+        setRetrievedContext(scenario.context);
+        setToolName(scenario.toolName);
+        setToolArgs(scenario.toolArgs);
+        setIsCostAnomaly(!!(scenario as any).costAnomaly);
+        
+        // Clear previous results
+        setEvaluationResult(null);
+        setCurrentStage(-1);
+        setRecheckPassed(false);
+        setIsRechecking(false);
+      }
     }
-  }, [selectedScenarioId]);
+  }, [selectedScenarioId, evaluationMode]);
 
   const pipelineStages = [
     { id: 0, label: 'Context & Policy Binding' },
@@ -73,23 +76,49 @@ export const LiveEvaluation: React.FC<LiveEvaluationProps> = ({
     setRecheckPassed(false);
     setIsRechecking(false);
 
-    // Simulated pipeline stage animation increments
-    for (let stage = 0; stage < 8; stage++) {
-      setCurrentStage(stage);
-      // Wait time to make visual flow understandable
-      await new Promise(resolve => setTimeout(resolve, 350));
+    let result: Evaluation;
+    try {
+      if (evaluationMode === 'gemini') {
+        let toolObj = undefined;
+        if (toolName) {
+          try {
+            toolObj = { tool_name: toolName, arguments: JSON.parse(toolArgs || '{}') };
+          } catch (e) {
+            toolObj = { tool_name: toolName, arguments: {} };
+          }
+        }
+        result = await controlplaneApi.evaluateV1(
+          application,
+          policyId,
+          prompt,
+          undefined,
+          toolObj,
+          true
+        );
+      } else {
+        result = controlplaneApi.runControlPlane(
+          application,
+          policyId,
+          prompt,
+          llmResponse,
+          retrievedContext,
+          toolName,
+          toolArgs,
+          isCostAnomaly
+        );
+      }
+    } catch (e) {
+      console.error(e);
+      alert("Error: ControlPlane API connection failed. Ensure backend python server is running on http://localhost:8000.");
+      setIsRunning(false);
+      return;
     }
 
-    const result = controlplaneApi.runControlPlane(
-      application,
-      policyId,
-      prompt,
-      llmResponse,
-      retrievedContext,
-      toolName,
-      toolArgs,
-      isCostAnomaly
-    );
+    // Simulated pipeline stage animation increments using live retrieved data
+    for (let stage = 0; stage < 8; stage++) {
+      setCurrentStage(stage);
+      await new Promise(resolve => setTimeout(resolve, 350));
+    }
 
     setEvaluationResult(result);
     onEvaluationCompleted(result);
@@ -116,8 +145,31 @@ export const LiveEvaluation: React.FC<LiveEvaluationProps> = ({
         
         {/* Left Panel: Scenario Loader & Input Panel */}
         <div className="lg:col-span-1 space-y-4">
-          <div className="rounded-lg border border-darkBorder bg-darkSurface p-4 space-y-4">
-            <h2 className="text-xs font-semibold text-darkTextPrimary tracking-wider uppercase">Scenario Loader</h2>
+          <div className="rounded-lg border border-darkBorder bg-darkSurface p-4 space-y-3">
+            <h2 className="text-xs font-semibold text-darkTextPrimary tracking-wider uppercase">Sandbox Evaluation Mode</h2>
+            <div className="flex space-x-2">
+              <button
+                onClick={() => setEvaluationMode('predefined')}
+                className={`flex-1 py-1.5 rounded text-[10px] font-bold cursor-pointer transition-all ${
+                  evaluationMode === 'predefined' ? 'bg-blue-600 text-white' : 'border border-darkBorder hover:bg-darkBg text-darkTextSecondary'
+                }`}
+              >
+                BENCHMARK SELECTION
+              </button>
+              <button
+                onClick={() => setEvaluationMode('gemini')}
+                className={`flex-1 py-1.5 rounded text-[10px] font-bold cursor-pointer transition-all ${
+                  evaluationMode === 'gemini' ? 'bg-blue-600 text-white' : 'border border-darkBorder hover:bg-darkBg text-darkTextSecondary'
+                }`}
+              >
+                LIVE GEMINI API
+              </button>
+            </div>
+          </div>
+
+          {evaluationMode === 'predefined' && (
+            <div className="rounded-lg border border-darkBorder bg-darkSurface p-4 space-y-4">
+              <h2 className="text-xs font-semibold text-darkTextPrimary tracking-wider uppercase">Scenario Loader</h2>
             
             <div className="relative">
               <select
@@ -134,10 +186,8 @@ export const LiveEvaluation: React.FC<LiveEvaluationProps> = ({
               </div>
             </div>
             
-            <div className="text-[10px] text-darkTextSecondary bg-darkBg/60 border border-darkBorder/40 rounded p-2 italic">
-              * Note: Selection populates simulated request payloads for audit traces.
             </div>
-          </div>
+          )}
 
           <div className="rounded-lg border border-darkBorder bg-darkSurface p-4 space-y-4">
             <h2 className="text-xs font-semibold text-darkTextPrimary tracking-wider uppercase">Request Parameters</h2>
@@ -181,7 +231,7 @@ export const LiveEvaluation: React.FC<LiveEvaluationProps> = ({
                 />
               </div>
 
-              {!toolName && (
+              {!toolName && evaluationMode === 'predefined' && (
                 <div className="space-y-1">
                   <label className="text-darkTextSecondary">LLM Response</label>
                   <textarea
@@ -194,7 +244,7 @@ export const LiveEvaluation: React.FC<LiveEvaluationProps> = ({
                 </div>
               )}
 
-              {!toolName && (
+              {!toolName && evaluationMode === 'predefined' && (
                 <div className="space-y-1">
                   <label className="text-darkTextSecondary">Retrieved Document Context</label>
                   <textarea

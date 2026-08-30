@@ -5,7 +5,8 @@ import { Overview } from './components/Overview';
 import { LiveEvaluation } from './components/LiveEvaluation';
 import { EvaluationTrace } from './components/EvaluationTrace';
 import { HumanReview, AgentTools, Policies, Monitoring, AuditLog } from './components/GovernanceSubpages';
-import { Shield, Radio, Activity, CheckSquare, Settings, BarChart2, FileText, Search, User } from 'lucide-react';
+import { Shield, Radio, Activity, CheckSquare, Settings, BarChart2, FileText, Search, User, Terminal } from 'lucide-react';
+import { ApiDocs } from './components/ApiDocs';
 
 function App() {
   const [currentPage, setCurrentPage] = useState<string>('overview');
@@ -142,6 +143,16 @@ function App() {
               <FileText className="h-4 w-4" />
               <span>Audit Log</span>
             </button>
+
+            <button
+              onClick={() => { setCurrentPage('api_docs'); setSelectedEvaluationId(null); }}
+              className={`w-full flex items-center space-x-2.5 px-3 py-2 rounded font-medium transition-all ${
+                currentPage === 'api_docs' ? 'bg-darkBorder text-darkTextPrimary' : 'text-darkTextSecondary hover:text-darkTextPrimary hover:bg-darkSurface/55'
+              }`}
+            >
+              <Terminal className="h-4 w-4 text-blue-400" />
+              <span>API Documentation</span>
+            </button>
           </nav>
         </div>
 
@@ -247,6 +258,10 @@ function App() {
               logs={auditLogs}
               onSelectAuditTrace={handleSelectTrace}
             />
+          )}
+
+          {currentPage === 'api_docs' && (
+            <ApiDocs />
           )}
 
         </div>

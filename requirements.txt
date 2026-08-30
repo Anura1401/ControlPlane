@@ -15,4 +15,4 @@ faiss-cpu
 pytest
 httpx
 pytest-asyncio
-
+google-generativeai

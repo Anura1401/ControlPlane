@@ -16,6 +16,7 @@ from app.engine.risk_router import RiskRouter
 from app.engine.risk_engine import RiskEngine
 from app.engine.policy_engine import PolicyEngine
 from app.engine.audit import AuditLogger
+from app.llm.gemini_service import GeminiService
 
 logger = logging.getLogger("controlplane.orchestrator")
 
@@ -41,12 +42,12 @@ class PlatformOrchestrator:
         self.risk_engine = RiskEngine()
         self.policy_engine = PolicyEngine()
         self.audit_logger = AuditLogger()
+        self.gemini_service = GeminiService()
 
     async def execute(self, context: RequestContext) -> FinalDecision:
         """
         Coordinates full governance checks on request.
         """
-        # Resolve policy first to attach policy_id & policy_version
         try:
             policy = self.policy_engine.get_policy(context.application_id)
             context.policy_id = policy.get("policy_id")
@@ -66,6 +67,25 @@ class PlatformOrchestrator:
                 reasons=[f"Configuration Error: {str(e)}"],
                 audit_id=""
             )
+
+        # Generate response using Gemini if requested
+        if context.generate_with_llm and not context.llm_response:
+            try:
+                llm_res = await self.gemini_service.generate(context.user_prompt)
+                context.llm_response = llm_res["response"]
+                context.llm_provider = llm_res.get("provider", "gemini")
+                context.llm_model = llm_res.get("model")
+                context.llm_input_tokens = llm_res.get("input_tokens", 0)
+                context.llm_output_tokens = llm_res.get("output_tokens", 0)
+                context.llm_latency_ms = llm_res.get("latency_ms", 0)
+                
+                # Sync with context operations metrics
+                context.operations.input_tokens = context.llm_input_tokens
+                context.operations.output_tokens = context.llm_output_tokens
+                context.operations.latency_ms = context.llm_latency_ms
+            except Exception as e:
+                logger.error(f"Failed to generate response using Gemini: {e}")
+                context.llm_response = f"Error generating response: {str(e)}"
 
         # 1. Run Tier-0 Responsibility Detectors concurrently
         pii_task = asyncio.to_thread(self.pii_detector.detect, context)
@@ -240,5 +260,20 @@ class PlatformOrchestrator:
         
         audit_hash = self.audit_logger.write_audit_record(context.request_id, audit_record)
         decision_record.audit_id = f"sha256-{audit_hash}"
+        
+        # Attach intermediate details dynamically using base object.__setattr__ to bypass Pydantic validations
+        object.__setattr__(decision_record, "llm_response_text", context.llm_response)
+        object.__setattr__(decision_record, "pii_res", locals().get("m_pii", pii_res))
+        object.__setattr__(decision_record, "tox_res", locals().get("m_tox", tox_res))
+        object.__setattr__(decision_record, "bias_res", locals().get("m_bias", bias_res))
+        object.__setattr__(decision_record, "inj_res", locals().get("m_inj", inj_res))
+        object.__setattr__(decision_record, "truth_res", truth_res)
+        object.__setattr__(decision_record, "deep_verify", deep_verify)
+        object.__setattr__(decision_record, "gating_reason", gating_reason)
+        object.__setattr__(decision_record, "verification_results", verification_results)
+        object.__setattr__(decision_record, "action_res", action_res)
+        object.__setattr__(decision_record, "features", features)
+        object.__setattr__(decision_record, "policy_record", policy)
+        object.__setattr__(decision_record, "cost_anomaly_score", cost_anomaly_score)
         
         return decision_record

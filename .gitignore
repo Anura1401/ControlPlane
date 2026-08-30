@@ -18,3 +18,8 @@ dist/
 
 # Local Model Weights (HuggingFace checkpoints)
 models/*/
+
+# Environment
+.env
+.env.example
+*.env

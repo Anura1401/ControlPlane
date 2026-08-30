@@ -1,0 +1,3 @@
+{"claim": "Quarterly revenue was $10B.", "evidence": "Quarterly revenue for the fiscal year was $10B.", "label": "SUPPORTED", "source_dataset": "VitaminC"}
+{"claim": "Quarterly revenue was $15B.", "evidence": "Quarterly revenue for the fiscal year was $10B.", "label": "CONTRADICTED", "source_dataset": "VitaminC"}
+{"claim": "Quarterly revenue rose by 10%.", "evidence": "Quarterly revenue for the fiscal year was $10B.", "label": "UNKNOWN", "source_dataset": "VitaminC"}

@@ -1,0 +1,3 @@
+{"claim": "Employee headcount is 12,000.", "evidence": "Employee headcount is 12,000 as of last year.", "label": "SUPPORTED", "source_dataset": "HoVer"}
+{"claim": "Employee headcount is 20,000.", "evidence": "Employee headcount is 12,000 as of last year.", "label": "CONTRADICTED", "source_dataset": "HoVer"}
+{"claim": "Employee hiring is frozen.", "evidence": "Employee headcount is 12,000 as of last year.", "label": "UNKNOWN", "source_dataset": "HoVer"}

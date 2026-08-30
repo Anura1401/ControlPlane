@@ -1,0 +1,72 @@
+{
+  "pii": {
+    "model_name": "piiranha-v1-detect-personal-information",
+    "huggingface_id": "iiiorg/piiranha-v1-detect-personal-information",
+    "revision": "main",
+    "task": "token-classification",
+    "license": "CC-BY-NC-ND-4.0",
+    "expected_input": "text",
+    "expected_output": "entity spans with confidence",
+    "local_path": "models/pii"
+  },
+  "toxicity": {
+    "model_name": "toxic-bert",
+    "huggingface_id": "unitary/toxic-bert",
+    "revision": "main",
+    "task": "text-classification",
+    "license": "Apache-2.0",
+    "expected_input": "text",
+    "expected_output": "multi-label toxicity probability scores",
+    "local_path": "models/toxicity"
+  },
+  "injection": {
+    "model_name": "deberta-v3-base-prompt-injection-v2",
+    "huggingface_id": "protectai/deberta-v3-base-prompt-injection-v2",
+    "revision": "main",
+    "task": "text-classification",
+    "license": "Apache-2.0",
+    "expected_input": "text",
+    "expected_output": "binary probability of injection",
+    "local_path": "models/injection"
+  },
+  "bias": {
+    "model_name": "distilbert-base-uncased-bias",
+    "huggingface_id": "distilbert-base-uncased",
+    "revision": "main",
+    "task": "text-classification",
+    "license": "Apache-2.0",
+    "expected_input": "text",
+    "expected_output": "binary probability of bias",
+    "local_path": "models/bias"
+  },
+  "claim_verifier": {
+    "model_name": "DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+    "huggingface_id": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+    "revision": "main",
+    "task": "text-classification",
+    "license": "MIT",
+    "expected_input": "premise + hypothesis",
+    "expected_output": "NLI classes (contradiction, neutral, entailment)",
+    "local_path": "models/claim_verifier"
+  },
+  "embeddings": {
+    "model_name": "bge-base-en-v1.5",
+    "huggingface_id": "BAAI/bge-base-en-v1.5",
+    "revision": "main",
+    "task": "sentence-similarity",
+    "license": "MIT",
+    "expected_input": "text",
+    "expected_output": "dense vector",
+    "local_path": "models/embeddings"
+  },
+  "risk_engine": {
+    "model_name": "calibrated-xgboost-risk",
+    "huggingface_id": "local-trained",
+    "revision": "v1.0.0",
+    "task": "risk-scoring-calibration",
+    "license": "Proprietary",
+    "expected_input": "feature vector of size 16",
+    "expected_output": "calibrated risk probability",
+    "local_path": "models/risk_engine"
+  }
+}

@@ -1,0 +1,18 @@
+version: "3.8"
+
+services:
+  controlplane:
+    build: .
+    image: controlplane-ai:round2
+    container_name: controlplane-service
+    ports:
+      - "${PORT:-8000}:8000"
+    environment:
+      - MOCK_ML=${MOCK_ML:-true}
+      - DEVICE=${DEVICE:-cpu}
+      - AUDIT_LOG_PATH=/workspace/data/audit_log.jsonl
+      - FAISS_INDEX_DIR=/workspace/data/indices
+    volumes:
+      - ./data:/workspace/data
+      - ./policies:/workspace/policies
+    restart: unless-stopped

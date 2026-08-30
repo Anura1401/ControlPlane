@@ -1,0 +1,3 @@
+{"claim": "The acquisition price was $1.4B.", "evidence": "Company X acquired Company Y for $1.4B in 2025.", "label": "SUPPORTED", "source_dataset": "AVeriTeC"}
+{"claim": "The acquisition price was $2.0B.", "evidence": "Company X acquired Company Y for $1.4B in 2025.", "label": "CONTRADICTED", "source_dataset": "AVeriTeC"}
+{"claim": "The acquisition was hostile.", "evidence": "Company X acquired Company Y for $1.4B in 2025.", "label": "UNKNOWN", "source_dataset": "AVeriTeC"}

@@ -1,0 +1,27 @@
+policy_id: hr_v1
+version: "1.0.0"
+risk_profile: high
+
+thresholds:
+  injection_block: 0.95
+  toxicity_block: 0.95
+  pii_modify: 0.50
+  pii_block: 0.99
+  bias_escalate: 0.50   # Low threshold to capture subtle bias in hiring scenarios
+  truth_verify: 0.50
+  verification_contradiction_escalate: true
+  retrieval_min_similarity: 0.65
+
+requirements:
+  require_evidence_for:
+    - hiring_decision
+  always_verify: false
+
+tools: {}
+
+actions:
+  default: ALLOW
+  pii_detected: MODIFY
+  high_risk_bias: ESCALATE
+  high_confidence_injection: BLOCK
+  unauthorized_tool: BLOCK

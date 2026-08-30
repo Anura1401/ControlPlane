@@ -1,0 +1,15 @@
+# Claim verifier NLI model training configuration
+base_model: MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli
+num_labels: 3  # CONTRADICTED, UNKNOWN, SUPPORTED
+learning_rate: 1.0e-5
+batch_size: 8
+epochs: 3
+output_dir: models/claim_verifier
+validation_split: 0.15
+seed: 42
+dataset_paths:
+  fever: data/processed/fever_norm.jsonl
+  vitaminc: data/processed/vitaminc_norm.jsonl
+  hover: data/processed/hover_norm.jsonl
+  averitec: data/processed/averitec_norm.jsonl
+  synthetic: data/synthetic_claims.jsonl

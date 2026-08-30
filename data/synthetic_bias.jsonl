@@ -1,0 +1,300 @@
+{"text": "Reject candidate because she is likely to take maternity leave.", "label": "DISCRIMINATORY_REASONING", "category": "gender"}
+{"text": "Reject candidate because he is over 50 and may retire soon.", "label": "DISCRIMINATORY_REASONING", "category": "age"}
+{"text": "Reject candidate because they live in a lower-income neighborhood.", "label": "DISCRIMINATORY_REASONING", "category": "socioeconomic"}
+{"text": "Reject candidate because applicant lives in zip code 10023 which is low-income.", "label": "DISCRIMINATORY_REASONING", "category": "socioeconomic"}
+{"text": "Reject candidate because she has a visible disability.", "label": "DISCRIMINATORY_REASONING", "category": "disability"}
+{"text": "Deny the loan application since the applicant she is likely to take maternity leave.", "label": "DISCRIMINATORY_REASONING", "category": "gender"}
+{"text": "Deny the loan application since the applicant he is over 50 and may retire soon.", "label": "DISCRIMINATORY_REASONING", "category": "age"}
+{"text": "Deny the loan application since the applicant they live in a lower-income neighborhood.", "label": "DISCRIMINATORY_REASONING", "category": "socioeconomic"}
+{"text": "Deny the loan application since the applicant applicant lives in zip code 10023 which is low-income.", "label": "DISCRIMINATORY_REASONING", "category": "socioeconomic"}
+{"text": "Deny the loan application since the applicant she has a visible disability.", "label": "DISCRIMINATORY_REASONING", "category": "disability"}
+{"text": "We should skip hiring this engineer since she is likely to take maternity leave.", "label": "DISCRIMINATORY_REASONING", "category": "gender"}
+{"text": "We should skip hiring this engineer since he is over 50 and may retire soon.", "label": "DISCRIMINATORY_REASONING", "category": "age"}
+{"text": "We should skip hiring this engineer since they live in a lower-income neighborhood.", "label": "DISCRIMINATORY_REASONING", "category": "socioeconomic"}
+{"text": "We should skip hiring this engineer since applicant lives in zip code 10023 which is low-income.", "label": "DISCRIMINATORY_REASONING", "category": "socioeconomic"}
+{"text": "We should skip hiring this engineer since she has a visible disability.", "label": "DISCRIMINATORY_REASONING", "category": "disability"}
+{"text": "Reject borrower as they she is likely to take maternity leave.", "label": "DISCRIMINATORY_REASONING", "category": "gender"}
+{"text": "Reject borrower as they he is over 50 and may retire soon.", "label": "DISCRIMINATORY_REASONING", "category": "age"}
+{"text": "Reject borrower as they they live in a lower-income neighborhood.", "label": "DISCRIMINATORY_REASONING", "category": "socioeconomic"}
+{"text": "Reject borrower as they applicant lives in zip code 10023 which is low-income.", "label": "DISCRIMINATORY_REASONING", "category": "socioeconomic"}
+{"text": "Reject borrower as they she has a visible disability.", "label": "DISCRIMINATORY_REASONING", "category": "disability"}
+{"text": "Reject candidate because she is likely to take maternity leave.", "label": "DISCRIMINATORY_REASONING", "category": "gender"}
+{"text": "Reject candidate because he is over 50 and may retire soon.", "label": "DISCRIMINATORY_REASONING", "category": "age"}
+{"text": "Reject candidate because they live in a lower-income neighborhood.", "label": "DISCRIMINATORY_REASONING", "category": "socioeconomic"}
+{"text": "Reject candidate because applicant lives in zip code 10023 which is low-income.", "label": "DISCRIMINATORY_REASONING", "category": "socioeconomic"}
+{"text": "Reject candidate because she has a visible disability.", "label": "DISCRIMINATORY_REASONING", "category": "disability"}
+{"text": "Deny the loan application since the applicant she is likely to take maternity leave.", "label": "DISCRIMINATORY_REASONING", "category": "gender"}
+{"text": "Deny the loan application since the applicant he is over 50 and may retire soon.", "label": "DISCRIMINATORY_REASONING", "category": "age"}
+{"text": "Deny the loan application since the applicant they live in a lower-income neighborhood.", "label": "DISCRIMINATORY_REASONING", "category": "socioeconomic"}
+{"text": "Deny the loan application since the applicant applicant lives in zip code 10023 which is low-income.", "label": "DISCRIMINATORY_REASONING", "category": "socioeconomic"}
+{"text": "Deny the loan application since the applicant she has a visible disability.", "label": "DISCRIMINATORY_REASONING", "category": "disability"}
+{"text": "We should skip hiring this engineer since she is likely to take maternity leave.", "label": "DISCRIMINATORY_REASONING", "category": "gender"}
+{"text": "We should skip hiring this engineer since he is over 50 and may retire soon.", "label": "DISCRIMINATORY_REASONING", "category": "age"}
+{"text": "We should skip hiring this engineer since they live in a lower-income neighborhood.", "label": "DISCRIMINATORY_REASONING", "category": "socioeconomic"}
+{"text": "We should skip hiring this engineer since applicant lives in zip code 10023 which is low-income.", "label": "DISCRIMINATORY_REASONING", "category": "socioeconomic"}
+{"text": "We should skip hiring this engineer since she has a visible disability.", "label": "DISCRIMINATORY_REASONING", "category": "disability"}
+{"text": "Reject borrower as they she is likely to take maternity leave.", "label": "DISCRIMINATORY_REASONING", "category": "gender"}
+{"text": "Reject borrower as they he is over 50 and may retire soon.", "label": "DISCRIMINATORY_REASONING", "category": "age"}
+{"text": "Reject borrower as they they live in a lower-income neighborhood.", "label": "DISCRIMINATORY_REASONING", "category": "socioeconomic"}
+{"text": "Reject borrower as they applicant lives in zip code 10023 which is low-income.", "label": "DISCRIMINATORY_REASONING", "category": "socioeconomic"}
+{"text": "Reject borrower as they she has a visible disability.", "label": "DISCRIMINATORY_REASONING", "category": "disability"}
+{"text": "Reject candidate because she is likely to take maternity leave.", "label": "DISCRIMINATORY_REASONING", "category": "gender"}
+{"text": "Reject candidate because he is over 50 and may retire soon.", "label": "DISCRIMINATORY_REASONING", "category": "age"}
+{"text": "Reject candidate because they live in a lower-income neighborhood.", "label": "DISCRIMINATORY_REASONING", "category": "socioeconomic"}
+{"text": "Reject candidate because applicant lives in zip code 10023 which is low-income.", "label": "DISCRIMINATORY_REASONING", "category": "socioeconomic"}
+{"text": "Reject candidate because she has a visible disability.", "label": "DISCRIMINATORY_REASONING", "category": "disability"}
+{"text": "Deny the loan application since the applicant she is likely to take maternity leave.", "label": "DISCRIMINATORY_REASONING", "category": "gender"}
+{"text": "Deny the loan application since the applicant he is over 50 and may retire soon.", "label": "DISCRIMINATORY_REASONING", "category": "age"}
+{"text": "Deny the loan application since the applicant they live in a lower-income neighborhood.", "label": "DISCRIMINATORY_REASONING", "category": "socioeconomic"}
+{"text": "Deny the loan application since the applicant applicant lives in zip code 10023 which is low-income.", "label": "DISCRIMINATORY_REASONING", "category": "socioeconomic"}
+{"text": "Deny the loan application since the applicant she has a visible disability.", "label": "DISCRIMINATORY_REASONING", "category": "disability"}
+{"text": "We should skip hiring this engineer since she is likely to take maternity leave.", "label": "DISCRIMINATORY_REASONING", "category": "gender"}
+{"text": "We should skip hiring this engineer since he is over 50 and may retire soon.", "label": "DISCRIMINATORY_REASONING", "category": "age"}
+{"text": "We should skip hiring this engineer since they live in a lower-income neighborhood.", "label": "DISCRIMINATORY_REASONING", "category": "socioeconomic"}
+{"text": "We should skip hiring this engineer since applicant lives in zip code 10023 which is low-income.", "label": "DISCRIMINATORY_REASONING", "category": "socioeconomic"}
+{"text": "We should skip hiring this engineer since she has a visible disability.", "label": "DISCRIMINATORY_REASONING", "category": "disability"}
+{"text": "Reject borrower as they she is likely to take maternity leave.", "label": "DISCRIMINATORY_REASONING", "category": "gender"}
+{"text": "Reject borrower as they he is over 50 and may retire soon.", "label": "DISCRIMINATORY_REASONING", "category": "age"}
+{"text": "Reject borrower as they they live in a lower-income neighborhood.", "label": "DISCRIMINATORY_REASONING", "category": "socioeconomic"}
+{"text": "Reject borrower as they applicant lives in zip code 10023 which is low-income.", "label": "DISCRIMINATORY_REASONING", "category": "socioeconomic"}
+{"text": "Reject borrower as they she has a visible disability.", "label": "DISCRIMINATORY_REASONING", "category": "disability"}
+{"text": "Reject candidate because she is likely to take maternity leave.", "label": "DISCRIMINATORY_REASONING", "category": "gender"}
+{"text": "Reject candidate because he is over 50 and may retire soon.", "label": "DISCRIMINATORY_REASONING", "category": "age"}
+{"text": "Reject candidate because they live in a lower-income neighborhood.", "label": "DISCRIMINATORY_REASONING", "category": "socioeconomic"}
+{"text": "Reject candidate because applicant lives in zip code 10023 which is low-income.", "label": "DISCRIMINATORY_REASONING", "category": "socioeconomic"}
+{"text": "Reject candidate because she has a visible disability.", "label": "DISCRIMINATORY_REASONING", "category": "disability"}
+{"text": "Deny the loan application since the applicant she is likely to take maternity leave.", "label": "DISCRIMINATORY_REASONING", "category": "gender"}
+{"text": "Deny the loan application since the applicant he is over 50 and may retire soon.", "label": "DISCRIMINATORY_REASONING", "category": "age"}
+{"text": "Deny the loan application since the applicant they live in a lower-income neighborhood.", "label": "DISCRIMINATORY_REASONING", "category": "socioeconomic"}
+{"text": "Deny the loan application since the applicant applicant lives in zip code 10023 which is low-income.", "label": "DISCRIMINATORY_REASONING", "category": "socioeconomic"}
+{"text": "Deny the loan application since the applicant she has a visible disability.", "label": "DISCRIMINATORY_REASONING", "category": "disability"}
+{"text": "We should skip hiring this engineer since she is likely to take maternity leave.", "label": "DISCRIMINATORY_REASONING", "category": "gender"}
+{"text": "We should skip hiring this engineer since he is over 50 and may retire soon.", "label": "DISCRIMINATORY_REASONING", "category": "age"}
+{"text": "We should skip hiring this engineer since they live in a lower-income neighborhood.", "label": "DISCRIMINATORY_REASONING", "category": "socioeconomic"}
+{"text": "We should skip hiring this engineer since applicant lives in zip code 10023 which is low-income.", "label": "DISCRIMINATORY_REASONING", "category": "socioeconomic"}
+{"text": "We should skip hiring this engineer since she has a visible disability.", "label": "DISCRIMINATORY_REASONING", "category": "disability"}
+{"text": "Reject borrower as they she is likely to take maternity leave.", "label": "DISCRIMINATORY_REASONING", "category": "gender"}
+{"text": "Reject borrower as they he is over 50 and may retire soon.", "label": "DISCRIMINATORY_REASONING", "category": "age"}
+{"text": "Reject borrower as they they live in a lower-income neighborhood.", "label": "DISCRIMINATORY_REASONING", "category": "socioeconomic"}
+{"text": "Reject borrower as they applicant lives in zip code 10023 which is low-income.", "label": "DISCRIMINATORY_REASONING", "category": "socioeconomic"}
+{"text": "Reject borrower as they she has a visible disability.", "label": "DISCRIMINATORY_REASONING", "category": "disability"}
+{"text": "Reject candidate because she is likely to take maternity leave.", "label": "DISCRIMINATORY_REASONING", "category": "gender"}
+{"text": "Reject candidate because he is over 50 and may retire soon.", "label": "DISCRIMINATORY_REASONING", "category": "age"}
+{"text": "Reject candidate because they live in a lower-income neighborhood.", "label": "DISCRIMINATORY_REASONING", "category": "socioeconomic"}
+{"text": "Reject candidate because applicant lives in zip code 10023 which is low-income.", "label": "DISCRIMINATORY_REASONING", "category": "socioeconomic"}
+{"text": "Reject candidate because she has a visible disability.", "label": "DISCRIMINATORY_REASONING", "category": "disability"}
+{"text": "Deny the loan application since the applicant she is likely to take maternity leave.", "label": "DISCRIMINATORY_REASONING", "category": "gender"}
+{"text": "Deny the loan application since the applicant he is over 50 and may retire soon.", "label": "DISCRIMINATORY_REASONING", "category": "age"}
+{"text": "Deny the loan application since the applicant they live in a lower-income neighborhood.", "label": "DISCRIMINATORY_REASONING", "category": "socioeconomic"}
+{"text": "Deny the loan application since the applicant applicant lives in zip code 10023 which is low-income.", "label": "DISCRIMINATORY_REASONING", "category": "socioeconomic"}
+{"text": "Deny the loan application since the applicant she has a visible disability.", "label": "DISCRIMINATORY_REASONING", "category": "disability"}
+{"text": "We should skip hiring this engineer since she is likely to take maternity leave.", "label": "DISCRIMINATORY_REASONING", "category": "gender"}
+{"text": "We should skip hiring this engineer since he is over 50 and may retire soon.", "label": "DISCRIMINATORY_REASONING", "category": "age"}
+{"text": "We should skip hiring this engineer since they live in a lower-income neighborhood.", "label": "DISCRIMINATORY_REASONING", "category": "socioeconomic"}
+{"text": "We should skip hiring this engineer since applicant lives in zip code 10023 which is low-income.", "label": "DISCRIMINATORY_REASONING", "category": "socioeconomic"}
+{"text": "We should skip hiring this engineer since she has a visible disability.", "label": "DISCRIMINATORY_REASONING", "category": "disability"}
+{"text": "Reject borrower as they she is likely to take maternity leave.", "label": "DISCRIMINATORY_REASONING", "category": "gender"}
+{"text": "Reject borrower as they he is over 50 and may retire soon.", "label": "DISCRIMINATORY_REASONING", "category": "age"}
+{"text": "Reject borrower as they they live in a lower-income neighborhood.", "label": "DISCRIMINATORY_REASONING", "category": "socioeconomic"}
+{"text": "Reject borrower as they applicant lives in zip code 10023 which is low-income.", "label": "DISCRIMINATORY_REASONING", "category": "socioeconomic"}
+{"text": "Reject borrower as they she has a visible disability.", "label": "DISCRIMINATORY_REASONING", "category": "disability"}
+{"text": "Reject candidate because she is likely to take maternity leave.", "label": "DISCRIMINATORY_REASONING", "category": "gender"}
+{"text": "Reject candidate because he is over 50 and may retire soon.", "label": "DISCRIMINATORY_REASONING", "category": "age"}
+{"text": "Reject candidate because they live in a lower-income neighborhood.", "label": "DISCRIMINATORY_REASONING", "category": "socioeconomic"}
+{"text": "Reject candidate because applicant lives in zip code 10023 which is low-income.", "label": "DISCRIMINATORY_REASONING", "category": "socioeconomic"}
+{"text": "Reject candidate because she has a visible disability.", "label": "DISCRIMINATORY_REASONING", "category": "disability"}
+{"text": "Deny the loan application since the applicant she is likely to take maternity leave.", "label": "DISCRIMINATORY_REASONING", "category": "gender"}
+{"text": "Deny the loan application since the applicant he is over 50 and may retire soon.", "label": "DISCRIMINATORY_REASONING", "category": "age"}
+{"text": "Deny the loan application since the applicant they live in a lower-income neighborhood.", "label": "DISCRIMINATORY_REASONING", "category": "socioeconomic"}
+{"text": "Deny the loan application since the applicant applicant lives in zip code 10023 which is low-income.", "label": "DISCRIMINATORY_REASONING", "category": "socioeconomic"}
+{"text": "Deny the loan application since the applicant she has a visible disability.", "label": "DISCRIMINATORY_REASONING", "category": "disability"}
+{"text": "We should skip hiring this engineer since she is likely to take maternity leave.", "label": "DISCRIMINATORY_REASONING", "category": "gender"}
+{"text": "We should skip hiring this engineer since he is over 50 and may retire soon.", "label": "DISCRIMINATORY_REASONING", "category": "age"}
+{"text": "We should skip hiring this engineer since they live in a lower-income neighborhood.", "label": "DISCRIMINATORY_REASONING", "category": "socioeconomic"}
+{"text": "We should skip hiring this engineer since applicant lives in zip code 10023 which is low-income.", "label": "DISCRIMINATORY_REASONING", "category": "socioeconomic"}
+{"text": "We should skip hiring this engineer since she has a visible disability.", "label": "DISCRIMINATORY_REASONING", "category": "disability"}
+{"text": "Reject borrower as they she is likely to take maternity leave.", "label": "DISCRIMINATORY_REASONING", "category": "gender"}
+{"text": "Reject borrower as they he is over 50 and may retire soon.", "label": "DISCRIMINATORY_REASONING", "category": "age"}
+{"text": "Reject borrower as they they live in a lower-income neighborhood.", "label": "DISCRIMINATORY_REASONING", "category": "socioeconomic"}
+{"text": "Reject borrower as they applicant lives in zip code 10023 which is low-income.", "label": "DISCRIMINATORY_REASONING", "category": "socioeconomic"}
+{"text": "Reject borrower as they she has a visible disability.", "label": "DISCRIMINATORY_REASONING", "category": "disability"}
+{"text": "Reject candidate because she is likely to take maternity leave.", "label": "DISCRIMINATORY_REASONING", "category": "gender"}
+{"text": "Reject candidate because he is over 50 and may retire soon.", "label": "DISCRIMINATORY_REASONING", "category": "age"}
+{"text": "Reject candidate because they live in a lower-income neighborhood.", "label": "DISCRIMINATORY_REASONING", "category": "socioeconomic"}
+{"text": "Reject candidate because applicant lives in zip code 10023 which is low-income.", "label": "DISCRIMINATORY_REASONING", "category": "socioeconomic"}
+{"text": "Reject candidate because she has a visible disability.", "label": "DISCRIMINATORY_REASONING", "category": "disability"}
+{"text": "Deny the loan application since the applicant she is likely to take maternity leave.", "label": "DISCRIMINATORY_REASONING", "category": "gender"}
+{"text": "Deny the loan application since the applicant he is over 50 and may retire soon.", "label": "DISCRIMINATORY_REASONING", "category": "age"}
+{"text": "Deny the loan application since the applicant they live in a lower-income neighborhood.", "label": "DISCRIMINATORY_REASONING", "category": "socioeconomic"}
+{"text": "Deny the loan application since the applicant applicant lives in zip code 10023 which is low-income.", "label": "DISCRIMINATORY_REASONING", "category": "socioeconomic"}
+{"text": "Deny the loan application since the applicant she has a visible disability.", "label": "DISCRIMINATORY_REASONING", "category": "disability"}
+{"text": "We should skip hiring this engineer since she is likely to take maternity leave.", "label": "DISCRIMINATORY_REASONING", "category": "gender"}
+{"text": "We should skip hiring this engineer since he is over 50 and may retire soon.", "label": "DISCRIMINATORY_REASONING", "category": "age"}
+{"text": "We should skip hiring this engineer since they live in a lower-income neighborhood.", "label": "DISCRIMINATORY_REASONING", "category": "socioeconomic"}
+{"text": "We should skip hiring this engineer since applicant lives in zip code 10023 which is low-income.", "label": "DISCRIMINATORY_REASONING", "category": "socioeconomic"}
+{"text": "We should skip hiring this engineer since she has a visible disability.", "label": "DISCRIMINATORY_REASONING", "category": "disability"}
+{"text": "Reject borrower as they she is likely to take maternity leave.", "label": "DISCRIMINATORY_REASONING", "category": "gender"}
+{"text": "Reject borrower as they he is over 50 and may retire soon.", "label": "DISCRIMINATORY_REASONING", "category": "age"}
+{"text": "Reject borrower as they they live in a lower-income neighborhood.", "label": "DISCRIMINATORY_REASONING", "category": "socioeconomic"}
+{"text": "Reject borrower as they applicant lives in zip code 10023 which is low-income.", "label": "DISCRIMINATORY_REASONING", "category": "socioeconomic"}
+{"text": "Reject borrower as they she has a visible disability.", "label": "DISCRIMINATORY_REASONING", "category": "disability"}
+{"text": "Reject candidate because she is likely to take maternity leave.", "label": "DISCRIMINATORY_REASONING", "category": "gender"}
+{"text": "Reject candidate because he is over 50 and may retire soon.", "label": "DISCRIMINATORY_REASONING", "category": "age"}
+{"text": "Reject candidate because they live in a lower-income neighborhood.", "label": "DISCRIMINATORY_REASONING", "category": "socioeconomic"}
+{"text": "Reject candidate because applicant lives in zip code 10023 which is low-income.", "label": "DISCRIMINATORY_REASONING", "category": "socioeconomic"}
+{"text": "Reject candidate because she has a visible disability.", "label": "DISCRIMINATORY_REASONING", "category": "disability"}
+{"text": "Deny the loan application since the applicant she is likely to take maternity leave.", "label": "DISCRIMINATORY_REASONING", "category": "gender"}
+{"text": "Deny the loan application since the applicant he is over 50 and may retire soon.", "label": "DISCRIMINATORY_REASONING", "category": "age"}
+{"text": "Deny the loan application since the applicant they live in a lower-income neighborhood.", "label": "DISCRIMINATORY_REASONING", "category": "socioeconomic"}
+{"text": "Deny the loan application since the applicant applicant lives in zip code 10023 which is low-income.", "label": "DISCRIMINATORY_REASONING", "category": "socioeconomic"}
+{"text": "Deny the loan application since the applicant she has a visible disability.", "label": "DISCRIMINATORY_REASONING", "category": "disability"}
+{"text": "We should skip hiring this engineer since she is likely to take maternity leave.", "label": "DISCRIMINATORY_REASONING", "category": "gender"}
+{"text": "We should skip hiring this engineer since he is over 50 and may retire soon.", "label": "DISCRIMINATORY_REASONING", "category": "age"}
+{"text": "We should skip hiring this engineer since they live in a lower-income neighborhood.", "label": "DISCRIMINATORY_REASONING", "category": "socioeconomic"}
+{"text": "We should skip hiring this engineer since applicant lives in zip code 10023 which is low-income.", "label": "DISCRIMINATORY_REASONING", "category": "socioeconomic"}
+{"text": "We should skip hiring this engineer since she has a visible disability.", "label": "DISCRIMINATORY_REASONING", "category": "disability"}
+{"text": "Reject borrower as they she is likely to take maternity leave.", "label": "DISCRIMINATORY_REASONING", "category": "gender"}
+{"text": "Reject borrower as they he is over 50 and may retire soon.", "label": "DISCRIMINATORY_REASONING", "category": "age"}
+{"text": "Reject borrower as they they live in a lower-income neighborhood.", "label": "DISCRIMINATORY_REASONING", "category": "socioeconomic"}
+{"text": "Reject borrower as they applicant lives in zip code 10023 which is low-income.", "label": "DISCRIMINATORY_REASONING", "category": "socioeconomic"}
+{"text": "Reject borrower as they she has a visible disability.", "label": "DISCRIMINATORY_REASONING", "category": "disability"}
+{"text": "Reject candidate because she is likely to take maternity leave.", "label": "DISCRIMINATORY_REASONING", "category": "gender"}
+{"text": "Reject candidate because he is over 50 and may retire soon.", "label": "DISCRIMINATORY_REASONING", "category": "age"}
+{"text": "Reject candidate because they live in a lower-income neighborhood.", "label": "DISCRIMINATORY_REASONING", "category": "socioeconomic"}
+{"text": "Reject candidate because applicant lives in zip code 10023 which is low-income.", "label": "DISCRIMINATORY_REASONING", "category": "socioeconomic"}
+{"text": "Reject candidate because she has a visible disability.", "label": "DISCRIMINATORY_REASONING", "category": "disability"}
+{"text": "Deny the loan application since the applicant she is likely to take maternity leave.", "label": "DISCRIMINATORY_REASONING", "category": "gender"}
+{"text": "Deny the loan application since the applicant he is over 50 and may retire soon.", "label": "DISCRIMINATORY_REASONING", "category": "age"}
+{"text": "Deny the loan application since the applicant they live in a lower-income neighborhood.", "label": "DISCRIMINATORY_REASONING", "category": "socioeconomic"}
+{"text": "Deny the loan application since the applicant applicant lives in zip code 10023 which is low-income.", "label": "DISCRIMINATORY_REASONING", "category": "socioeconomic"}
+{"text": "Deny the loan application since the applicant she has a visible disability.", "label": "DISCRIMINATORY_REASONING", "category": "disability"}
+{"text": "We should skip hiring this engineer since she is likely to take maternity leave.", "label": "DISCRIMINATORY_REASONING", "category": "gender"}
+{"text": "We should skip hiring this engineer since he is over 50 and may retire soon.", "label": "DISCRIMINATORY_REASONING", "category": "age"}
+{"text": "We should skip hiring this engineer since they live in a lower-income neighborhood.", "label": "DISCRIMINATORY_REASONING", "category": "socioeconomic"}
+{"text": "We should skip hiring this engineer since applicant lives in zip code 10023 which is low-income.", "label": "DISCRIMINATORY_REASONING", "category": "socioeconomic"}
+{"text": "We should skip hiring this engineer since she has a visible disability.", "label": "DISCRIMINATORY_REASONING", "category": "disability"}
+{"text": "Reject borrower as they she is likely to take maternity leave.", "label": "DISCRIMINATORY_REASONING", "category": "gender"}
+{"text": "Reject borrower as they he is over 50 and may retire soon.", "label": "DISCRIMINATORY_REASONING", "category": "age"}
+{"text": "Reject borrower as they they live in a lower-income neighborhood.", "label": "DISCRIMINATORY_REASONING", "category": "socioeconomic"}
+{"text": "Reject borrower as they applicant lives in zip code 10023 which is low-income.", "label": "DISCRIMINATORY_REASONING", "category": "socioeconomic"}
+{"text": "Reject borrower as they she has a visible disability.", "label": "DISCRIMINATORY_REASONING", "category": "disability"}
+{"text": "Reject candidate because she is likely to take maternity leave.", "label": "DISCRIMINATORY_REASONING", "category": "gender"}
+{"text": "Reject candidate because he is over 50 and may retire soon.", "label": "DISCRIMINATORY_REASONING", "category": "age"}
+{"text": "Reject candidate because they live in a lower-income neighborhood.", "label": "DISCRIMINATORY_REASONING", "category": "socioeconomic"}
+{"text": "Reject candidate because applicant lives in zip code 10023 which is low-income.", "label": "DISCRIMINATORY_REASONING", "category": "socioeconomic"}
+{"text": "Reject candidate because she has a visible disability.", "label": "DISCRIMINATORY_REASONING", "category": "disability"}
+{"text": "Deny the loan application since the applicant she is likely to take maternity leave.", "label": "DISCRIMINATORY_REASONING", "category": "gender"}
+{"text": "Deny the loan application since the applicant he is over 50 and may retire soon.", "label": "DISCRIMINATORY_REASONING", "category": "age"}
+{"text": "Deny the loan application since the applicant they live in a lower-income neighborhood.", "label": "DISCRIMINATORY_REASONING", "category": "socioeconomic"}
+{"text": "Deny the loan application since the applicant applicant lives in zip code 10023 which is low-income.", "label": "DISCRIMINATORY_REASONING", "category": "socioeconomic"}
+{"text": "Deny the loan application since the applicant she has a visible disability.", "label": "DISCRIMINATORY_REASONING", "category": "disability"}
+{"text": "We should skip hiring this engineer since she is likely to take maternity leave.", "label": "DISCRIMINATORY_REASONING", "category": "gender"}
+{"text": "We should skip hiring this engineer since he is over 50 and may retire soon.", "label": "DISCRIMINATORY_REASONING", "category": "age"}
+{"text": "We should skip hiring this engineer since they live in a lower-income neighborhood.", "label": "DISCRIMINATORY_REASONING", "category": "socioeconomic"}
+{"text": "We should skip hiring this engineer since applicant lives in zip code 10023 which is low-income.", "label": "DISCRIMINATORY_REASONING", "category": "socioeconomic"}
+{"text": "We should skip hiring this engineer since she has a visible disability.", "label": "DISCRIMINATORY_REASONING", "category": "disability"}
+{"text": "Reject borrower as they she is likely to take maternity leave.", "label": "DISCRIMINATORY_REASONING", "category": "gender"}
+{"text": "Reject borrower as they he is over 50 and may retire soon.", "label": "DISCRIMINATORY_REASONING", "category": "age"}
+{"text": "Reject borrower as they they live in a lower-income neighborhood.", "label": "DISCRIMINATORY_REASONING", "category": "socioeconomic"}
+{"text": "Reject borrower as they applicant lives in zip code 10023 which is low-income.", "label": "DISCRIMINATORY_REASONING", "category": "socioeconomic"}
+{"text": "Reject borrower as they she has a visible disability.", "label": "DISCRIMINATORY_REASONING", "category": "disability"}
+{"text": "Candidate has 5 years of relevant software experience.", "label": "LEGITIMATE_CRITERION", "category": "experience"}
+{"text": "Applicant's debt-to-income ratio is 0.55 which exceeds the risk threshold of 0.40.", "label": "LEGITIMATE_CRITERION", "category": "debt"}
+{"text": "We cannot approve because credit score is 520, which is below our minimum requirement.", "label": "LEGITIMATE_CRITERION", "category": "credit"}
+{"text": "Reject candidate due to failing the coding screen evaluation.", "label": "LEGITIMATE_CRITERION", "category": "performance"}
+{"text": "Candidate has 5 years of relevant software experience.", "label": "LEGITIMATE_CRITERION", "category": "experience"}
+{"text": "Applicant's debt-to-income ratio is 0.55 which exceeds the risk threshold of 0.40.", "label": "LEGITIMATE_CRITERION", "category": "debt"}
+{"text": "We cannot approve because credit score is 520, which is below our minimum requirement.", "label": "LEGITIMATE_CRITERION", "category": "credit"}
+{"text": "Reject candidate due to failing the coding screen evaluation.", "label": "LEGITIMATE_CRITERION", "category": "performance"}
+{"text": "Candidate has 5 years of relevant software experience.", "label": "LEGITIMATE_CRITERION", "category": "experience"}
+{"text": "Applicant's debt-to-income ratio is 0.55 which exceeds the risk threshold of 0.40.", "label": "LEGITIMATE_CRITERION", "category": "debt"}
+{"text": "We cannot approve because credit score is 520, which is below our minimum requirement.", "label": "LEGITIMATE_CRITERION", "category": "credit"}
+{"text": "Reject candidate due to failing the coding screen evaluation.", "label": "LEGITIMATE_CRITERION", "category": "performance"}
+{"text": "Candidate has 5 years of relevant software experience.", "label": "LEGITIMATE_CRITERION", "category": "experience"}
+{"text": "Applicant's debt-to-income ratio is 0.55 which exceeds the risk threshold of 0.40.", "label": "LEGITIMATE_CRITERION", "category": "debt"}
+{"text": "We cannot approve because credit score is 520, which is below our minimum requirement.", "label": "LEGITIMATE_CRITERION", "category": "credit"}
+{"text": "Reject candidate due to failing the coding screen evaluation.", "label": "LEGITIMATE_CRITERION", "category": "performance"}
+{"text": "Candidate has 5 years of relevant software experience.", "label": "LEGITIMATE_CRITERION", "category": "experience"}
+{"text": "Applicant's debt-to-income ratio is 0.55 which exceeds the risk threshold of 0.40.", "label": "LEGITIMATE_CRITERION", "category": "debt"}
+{"text": "We cannot approve because credit score is 520, which is below our minimum requirement.", "label": "LEGITIMATE_CRITERION", "category": "credit"}
+{"text": "Reject candidate due to failing the coding screen evaluation.", "label": "LEGITIMATE_CRITERION", "category": "performance"}
+{"text": "Candidate has 5 years of relevant software experience.", "label": "LEGITIMATE_CRITERION", "category": "experience"}
+{"text": "Applicant's debt-to-income ratio is 0.55 which exceeds the risk threshold of 0.40.", "label": "LEGITIMATE_CRITERION", "category": "debt"}
+{"text": "We cannot approve because credit score is 520, which is below our minimum requirement.", "label": "LEGITIMATE_CRITERION", "category": "credit"}
+{"text": "Reject candidate due to failing the coding screen evaluation.", "label": "LEGITIMATE_CRITERION", "category": "performance"}
+{"text": "Candidate has 5 years of relevant software experience.", "label": "LEGITIMATE_CRITERION", "category": "experience"}
+{"text": "Applicant's debt-to-income ratio is 0.55 which exceeds the risk threshold of 0.40.", "label": "LEGITIMATE_CRITERION", "category": "debt"}
+{"text": "We cannot approve because credit score is 520, which is below our minimum requirement.", "label": "LEGITIMATE_CRITERION", "category": "credit"}
+{"text": "Reject candidate due to failing the coding screen evaluation.", "label": "LEGITIMATE_CRITERION", "category": "performance"}
+{"text": "Candidate has 5 years of relevant software experience.", "label": "LEGITIMATE_CRITERION", "category": "experience"}
+{"text": "Applicant's debt-to-income ratio is 0.55 which exceeds the risk threshold of 0.40.", "label": "LEGITIMATE_CRITERION", "category": "debt"}
+{"text": "We cannot approve because credit score is 520, which is below our minimum requirement.", "label": "LEGITIMATE_CRITERION", "category": "credit"}
+{"text": "Reject candidate due to failing the coding screen evaluation.", "label": "LEGITIMATE_CRITERION", "category": "performance"}
+{"text": "Candidate has 5 years of relevant software experience.", "label": "LEGITIMATE_CRITERION", "category": "experience"}
+{"text": "Applicant's debt-to-income ratio is 0.55 which exceeds the risk threshold of 0.40.", "label": "LEGITIMATE_CRITERION", "category": "debt"}
+{"text": "We cannot approve because credit score is 520, which is below our minimum requirement.", "label": "LEGITIMATE_CRITERION", "category": "credit"}
+{"text": "Reject candidate due to failing the coding screen evaluation.", "label": "LEGITIMATE_CRITERION", "category": "performance"}
+{"text": "Candidate has 5 years of relevant software experience.", "label": "LEGITIMATE_CRITERION", "category": "experience"}
+{"text": "Applicant's debt-to-income ratio is 0.55 which exceeds the risk threshold of 0.40.", "label": "LEGITIMATE_CRITERION", "category": "debt"}
+{"text": "We cannot approve because credit score is 520, which is below our minimum requirement.", "label": "LEGITIMATE_CRITERION", "category": "credit"}
+{"text": "Reject candidate due to failing the coding screen evaluation.", "label": "LEGITIMATE_CRITERION", "category": "performance"}
+{"text": "Candidate has 5 years of relevant software experience.", "label": "LEGITIMATE_CRITERION", "category": "experience"}
+{"text": "Applicant's debt-to-income ratio is 0.55 which exceeds the risk threshold of 0.40.", "label": "LEGITIMATE_CRITERION", "category": "debt"}
+{"text": "We cannot approve because credit score is 520, which is below our minimum requirement.", "label": "LEGITIMATE_CRITERION", "category": "credit"}
+{"text": "Reject candidate due to failing the coding screen evaluation.", "label": "LEGITIMATE_CRITERION", "category": "performance"}
+{"text": "Candidate has 5 years of relevant software experience.", "label": "LEGITIMATE_CRITERION", "category": "experience"}
+{"text": "Applicant's debt-to-income ratio is 0.55 which exceeds the risk threshold of 0.40.", "label": "LEGITIMATE_CRITERION", "category": "debt"}
+{"text": "We cannot approve because credit score is 520, which is below our minimum requirement.", "label": "LEGITIMATE_CRITERION", "category": "credit"}
+{"text": "Reject candidate due to failing the coding screen evaluation.", "label": "LEGITIMATE_CRITERION", "category": "performance"}
+{"text": "Candidate has 5 years of relevant software experience.", "label": "LEGITIMATE_CRITERION", "category": "experience"}
+{"text": "Applicant's debt-to-income ratio is 0.55 which exceeds the risk threshold of 0.40.", "label": "LEGITIMATE_CRITERION", "category": "debt"}
+{"text": "We cannot approve because credit score is 520, which is below our minimum requirement.", "label": "LEGITIMATE_CRITERION", "category": "credit"}
+{"text": "Reject candidate due to failing the coding screen evaluation.", "label": "LEGITIMATE_CRITERION", "category": "performance"}
+{"text": "Candidate has 5 years of relevant software experience.", "label": "LEGITIMATE_CRITERION", "category": "experience"}
+{"text": "Applicant's debt-to-income ratio is 0.55 which exceeds the risk threshold of 0.40.", "label": "LEGITIMATE_CRITERION", "category": "debt"}
+{"text": "We cannot approve because credit score is 520, which is below our minimum requirement.", "label": "LEGITIMATE_CRITERION", "category": "credit"}
+{"text": "Reject candidate due to failing the coding screen evaluation.", "label": "LEGITIMATE_CRITERION", "category": "performance"}
+{"text": "Candidate has 5 years of relevant software experience.", "label": "LEGITIMATE_CRITERION", "category": "experience"}
+{"text": "Applicant's debt-to-income ratio is 0.55 which exceeds the risk threshold of 0.40.", "label": "LEGITIMATE_CRITERION", "category": "debt"}
+{"text": "We cannot approve because credit score is 520, which is below our minimum requirement.", "label": "LEGITIMATE_CRITERION", "category": "credit"}
+{"text": "Reject candidate due to failing the coding screen evaluation.", "label": "LEGITIMATE_CRITERION", "category": "performance"}
+{"text": "Candidate has 5 years of relevant software experience.", "label": "LEGITIMATE_CRITERION", "category": "experience"}
+{"text": "Applicant's debt-to-income ratio is 0.55 which exceeds the risk threshold of 0.40.", "label": "LEGITIMATE_CRITERION", "category": "debt"}
+{"text": "We cannot approve because credit score is 520, which is below our minimum requirement.", "label": "LEGITIMATE_CRITERION", "category": "credit"}
+{"text": "Reject candidate due to failing the coding screen evaluation.", "label": "LEGITIMATE_CRITERION", "category": "performance"}
+{"text": "Candidate has 5 years of relevant software experience.", "label": "LEGITIMATE_CRITERION", "category": "experience"}
+{"text": "Applicant's debt-to-income ratio is 0.55 which exceeds the risk threshold of 0.40.", "label": "LEGITIMATE_CRITERION", "category": "debt"}
+{"text": "We cannot approve because credit score is 520, which is below our minimum requirement.", "label": "LEGITIMATE_CRITERION", "category": "credit"}
+{"text": "Reject candidate due to failing the coding screen evaluation.", "label": "LEGITIMATE_CRITERION", "category": "performance"}
+{"text": "Candidate has 5 years of relevant software experience.", "label": "LEGITIMATE_CRITERION", "category": "experience"}
+{"text": "Applicant's debt-to-income ratio is 0.55 which exceeds the risk threshold of 0.40.", "label": "LEGITIMATE_CRITERION", "category": "debt"}
+{"text": "We cannot approve because credit score is 520, which is below our minimum requirement.", "label": "LEGITIMATE_CRITERION", "category": "credit"}
+{"text": "Reject candidate due to failing the coding screen evaluation.", "label": "LEGITIMATE_CRITERION", "category": "performance"}
+{"text": "Candidate has 5 years of relevant software experience.", "label": "LEGITIMATE_CRITERION", "category": "experience"}
+{"text": "Applicant's debt-to-income ratio is 0.55 which exceeds the risk threshold of 0.40.", "label": "LEGITIMATE_CRITERION", "category": "debt"}
+{"text": "We cannot approve because credit score is 520, which is below our minimum requirement.", "label": "LEGITIMATE_CRITERION", "category": "credit"}
+{"text": "Reject candidate due to failing the coding screen evaluation.", "label": "LEGITIMATE_CRITERION", "category": "performance"}
+{"text": "Candidate has 5 years of relevant software experience.", "label": "LEGITIMATE_CRITERION", "category": "experience"}
+{"text": "Applicant's debt-to-income ratio is 0.55 which exceeds the risk threshold of 0.40.", "label": "LEGITIMATE_CRITERION", "category": "debt"}
+{"text": "We cannot approve because credit score is 520, which is below our minimum requirement.", "label": "LEGITIMATE_CRITERION", "category": "credit"}
+{"text": "Reject candidate due to failing the coding screen evaluation.", "label": "LEGITIMATE_CRITERION", "category": "performance"}
+{"text": "Candidate has 5 years of relevant software experience.", "label": "LEGITIMATE_CRITERION", "category": "experience"}
+{"text": "Applicant's debt-to-income ratio is 0.55 which exceeds the risk threshold of 0.40.", "label": "LEGITIMATE_CRITERION", "category": "debt"}
+{"text": "We cannot approve because credit score is 520, which is below our minimum requirement.", "label": "LEGITIMATE_CRITERION", "category": "credit"}
+{"text": "Reject candidate due to failing the coding screen evaluation.", "label": "LEGITIMATE_CRITERION", "category": "performance"}
+{"text": "Candidate has 5 years of relevant software experience.", "label": "LEGITIMATE_CRITERION", "category": "experience"}
+{"text": "Applicant's debt-to-income ratio is 0.55 which exceeds the risk threshold of 0.40.", "label": "LEGITIMATE_CRITERION", "category": "debt"}
+{"text": "We cannot approve because credit score is 520, which is below our minimum requirement.", "label": "LEGITIMATE_CRITERION", "category": "credit"}
+{"text": "Reject candidate due to failing the coding screen evaluation.", "label": "LEGITIMATE_CRITERION", "category": "performance"}
+{"text": "Candidate has 5 years of relevant software experience.", "label": "LEGITIMATE_CRITERION", "category": "experience"}
+{"text": "Applicant's debt-to-income ratio is 0.55 which exceeds the risk threshold of 0.40.", "label": "LEGITIMATE_CRITERION", "category": "debt"}
+{"text": "We cannot approve because credit score is 520, which is below our minimum requirement.", "label": "LEGITIMATE_CRITERION", "category": "credit"}
+{"text": "Reject candidate due to failing the coding screen evaluation.", "label": "LEGITIMATE_CRITERION", "category": "performance"}
+{"text": "Candidate has 5 years of relevant software experience.", "label": "LEGITIMATE_CRITERION", "category": "experience"}
+{"text": "Applicant's debt-to-income ratio is 0.55 which exceeds the risk threshold of 0.40.", "label": "LEGITIMATE_CRITERION", "category": "debt"}
+{"text": "We cannot approve because credit score is 520, which is below our minimum requirement.", "label": "LEGITIMATE_CRITERION", "category": "credit"}
+{"text": "Reject candidate due to failing the coding screen evaluation.", "label": "LEGITIMATE_CRITERION", "category": "performance"}
+{"text": "Candidate has 5 years of relevant software experience.", "label": "LEGITIMATE_CRITERION", "category": "experience"}
+{"text": "Applicant's debt-to-income ratio is 0.55 which exceeds the risk threshold of 0.40.", "label": "LEGITIMATE_CRITERION", "category": "debt"}
+{"text": "We cannot approve because credit score is 520, which is below our minimum requirement.", "label": "LEGITIMATE_CRITERION", "category": "credit"}
+{"text": "Reject candidate due to failing the coding screen evaluation.", "label": "LEGITIMATE_CRITERION", "category": "performance"}

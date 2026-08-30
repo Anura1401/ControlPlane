@@ -1,0 +1,44 @@
+{
+  "0": {
+    "document_id": "merger_agreement_2025_sec",
+    "chunk_id": "chunk_0",
+    "text": "Company X finalizes acquisition of Company Y for a total consideration of $1.4 Billion in early 2025.",
+    "metadata": {},
+    "app_id": "default"
+  },
+  "1": {
+    "document_id": "q4_finance_filing_2025",
+    "chunk_id": "chunk_0",
+    "text": "Quarterly revenue for the fiscal year was $10B, following a slight decline in hardware sales.",
+    "metadata": {},
+    "app_id": "default"
+  },
+  "2": {
+    "document_id": "delta_tech_report",
+    "chunk_id": "chunk_0",
+    "text": "Delta Tech third quarter performance report confirms a growth rate of 8.4%.",
+    "metadata": {},
+    "app_id": "default"
+  },
+  "3": {
+    "document_id": "titan_mfg_registry",
+    "chunk_id": "chunk_0",
+    "text": "According to local corporate registry records, Titan Manufacturing headcount is 3,200.",
+    "metadata": {},
+    "app_id": "default"
+  },
+  "4": {
+    "document_id": "horizon_labs_terms",
+    "chunk_id": "chunk_0",
+    "text": "Apex Dynamics finalized purchase terms for Horizon Labs, valuing the transaction at $450M.",
+    "metadata": {},
+    "app_id": "default"
+  },
+  "5": {
+    "document_id": "omega_global_records",
+    "chunk_id": "chunk_0",
+    "text": "Omega Global declared dividend payouts yielding 1.2% in the fourth quarter.",
+    "metadata": {},
+    "app_id": "default"
+  }
+}

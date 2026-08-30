@@ -1,0 +1,17 @@
+# Python environment
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Node environment
+node_modules/
+dist/
+.tmp/
+*.tsbuildinfo
+
+# IDE files
+.idea/
+.vscode/
+.DS_Store

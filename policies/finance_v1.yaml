@@ -1,0 +1,51 @@
+policy_id: finance_v1
+version: "1.0.0"
+risk_profile: high
+
+thresholds:
+  injection_block: 0.95
+  toxicity_block: 0.95
+  pii_modify: 0.60
+  pii_block: 0.99
+  bias_escalate: 0.70
+  truth_verify: 0.50
+  verification_contradiction_escalate: true
+  retrieval_min_similarity: 0.65
+
+risk_thresholds:
+  low_max: 0.30
+  medium_max: 0.60
+  high_max: 0.85
+  critical_min: 0.85
+
+requirements:
+  require_evidence_for:
+    - financial_claim
+    - financial_qa
+    - recommendation
+  always_verify: false
+
+tools:
+  send_email:
+    impact: high
+    reversible: false
+    sensitivity: medium
+    authorization_required: true
+  delete_record:
+    impact: critical
+    reversible: false
+    sensitivity: high
+    authorization_required: true
+  read_public_data:
+    impact: low
+    reversible: true
+    sensitivity: low
+    authorization_required: false
+
+actions:
+  default: ALLOW
+  pii_detected: MODIFY
+  high_risk_bias: ESCALATE
+  contradicted_financial_claim: ESCALATE
+  high_confidence_injection: BLOCK
+  unauthorized_tool: BLOCK

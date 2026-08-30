@@ -1,0 +1,26 @@
+# Risk Engine XGBoost model configuration
+model_type: xgboost
+n_estimators: 150
+max_depth: 5
+learning_rate: 0.05
+eval_metric: logloss
+calibration_method: sigmoid  # Platt scaling / Sigmoid
+calibration_cv: 3
+output_path: app/engine/risk_calibrator.joblib
+features:
+  - pii_score
+  - toxicity_score
+  - bias_score
+  - injection_score
+  - truth_risk
+  - retrieval_quality
+  - verification_confidence
+  - contradicted_claim_ratio
+  - unknown_claim_ratio
+  - cost_anomaly_score
+  - tool_impact
+  - tool_reversibility
+  - tool_sensitivity
+  - authorization_status
+  - task_risk
+  - application_risk

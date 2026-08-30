@@ -1,0 +1,3 @@
+{"claim": "Company X acquired Company Y in 2025.", "evidence": "Company X acquired Company Y for $1.4B in 2025.", "label": "SUPPORTED", "source_dataset": "FEVER"}
+{"claim": "Company X acquired Company Y in 2010.", "evidence": "Company X acquired Company Y for $1.4B in 2025.", "label": "CONTRADICTED", "source_dataset": "FEVER"}
+{"claim": "Company X is based in New York.", "evidence": "Company X acquired Company Y for $1.4B in 2025.", "label": "UNKNOWN", "source_dataset": "FEVER"}

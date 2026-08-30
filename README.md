@@ -26,6 +26,44 @@ ControlPlane.ai is a model-agnostic safety gateway placed between enterprise AI 
 6. **Policy Engine & Actions**: Maps risk thresholds to ALLOW, MODIFY (PII redacted), ESCALATE, or BLOCK actions.
 7. **Tamper-Evident Chained Audit Log**: Append-only log signed with SHA-256 hashes chained to the previous record.
 
+### Staged Pipeline Architecture Flowchart
+
+```mermaid
+graph TD
+    UserPrompt([User Prompt / Query]) --> ContextLoader[1. Context & Policy Loader]
+    ContextLoader --> T0Detectors[2. Tier-0 Fast Detectors]
+    subgraph T0 [Tier 0 Safety & Operations]
+        T0Detectors --> PIIDetect[PII Detector]
+        T0Detectors --> ToxDetect[Toxicity Detector]
+        T0Detectors --> InjDetect[Prompt Injection Detector]
+        T0Detectors --> BiasDetect[Bias Detector]
+        T0Detectors --> Heuristic[Truth Lane Heuristic]
+        T0Detectors --> OpsMonitor[Operations Monitor]
+    end
+    
+    T0 --> RiskRouter{3. Risk Router Gating}
+    
+    RiskRouter -- Deep Verify --> ClaimExtract[4. Claim Extraction & Retrieval]
+    subgraph T1 [Tier 1 Deep Verification]
+        ClaimExtract --> EmbeddingFAISS[FAISS Vector Search]
+        EmbeddingFAISS --> NLIVerifier[DeBERTa NLI Claim Verifier]
+    end
+    
+    NLIVerifier --> RiskEngine
+    RiskRouter -- Skip Deep Verify --> RiskEngine[5. XGBoost Calibrated Risk Engine]
+    
+    T0 --> ToolValidator[6. Tool & Action Validator]
+    ToolValidator --> RiskEngine
+    
+    RiskEngine --> PolicyEngine[7. Policy Engine Enforcement]
+    
+    PolicyEngine -- MODIFY --> RewriteEval[8. Re-evaluation Loop]
+    RewriteEval --> T0Detectors
+    
+    PolicyEngine -- ALLOW/BLOCK/ESCALATE --> AuditLog[9. Chained Audit Log]
+    AuditLog --> FinalOutput([Output Release])
+```
+
 ---
 
 ## 2. Quick-Start Setup

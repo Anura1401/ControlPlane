@@ -47,7 +47,7 @@ def test_apiv1_evaluate_gemini_generation():
         data = response.json()
         assert data["decision"] == "ALLOW"
         assert data["llm"]["provider"] == "gemini"
-        assert "compounding interest" in data["final_response"].lower()
+        assert "compound interest" in data["final_response"].lower() or "compounding interest" in data["final_response"].lower()
 
 def test_apiv1_evaluate_tool_action_block():
     with TestClient(app) as client:

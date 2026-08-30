@@ -1,0 +1,3914 @@
+[
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788083592.3155713"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788083592.3469567"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788083592.3763711"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788083592.3923347"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788083592.4074326"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788083592.4260283"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788083592.4436252"
+  },
+  {
+    "app_id": "hr_support",
+    "task_type": "hiring_decision",
+    "cost": 0.0,
+    "timestamp": "1788083592.465415"
+  },
+  {
+    "app_id": "hr_support",
+    "task_type": "hiring_decision",
+    "cost": 0.0,
+    "timestamp": "1788083592.479502"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788083592.4945016"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788083592.5121412"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788083592.531391"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788083592.535769"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788083592.5395715"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788083592.5434017"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788083592.5475054"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.05,
+    "timestamp": "1788083592.55119"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788083592.5699859"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 1e-05,
+    "timestamp": "1788083592.5873206"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788083592.8111575"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788083642.4300828"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788083642.460268"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788083642.4790702"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788083642.4933515"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788083642.5076687"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788083642.5215113"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788083642.5394986"
+  },
+  {
+    "app_id": "hr_support",
+    "task_type": "hiring_decision",
+    "cost": 0.0,
+    "timestamp": "1788083642.558132"
+  },
+  {
+    "app_id": "hr_support",
+    "task_type": "hiring_decision",
+    "cost": 0.0,
+    "timestamp": "1788083642.5723343"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788083642.5873914"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788083642.6022758"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788083642.6198537"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788083642.6256232"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788083642.631119"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788083642.6357348"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788083642.6400595"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.05,
+    "timestamp": "1788083642.6443076"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788083642.6624444"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 1e-05,
+    "timestamp": "1788083642.6800153"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788083642.694346"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788083734.588193"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788083734.6407623"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788083734.6953454"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788083734.7339044"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788083734.771522"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788083734.8084939"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788083734.8550465"
+  },
+  {
+    "app_id": "hr_support",
+    "task_type": "hiring_decision",
+    "cost": 0.0,
+    "timestamp": "1788083734.8935094"
+  },
+  {
+    "app_id": "hr_support",
+    "task_type": "hiring_decision",
+    "cost": 0.0,
+    "timestamp": "1788083734.93914"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788083734.9834685"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788083735.0237167"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788083735.0614893"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788083735.073746"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788083735.084133"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788083735.0940645"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788083735.103683"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.05,
+    "timestamp": "1788083735.1135156"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788083735.1515431"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 1e-05,
+    "timestamp": "1788083735.2011046"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788083735.5026536"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788083905.9440854"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788083906.0022519"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788083906.0545762"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788083906.0937192"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788083906.130963"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788083906.168534"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788083906.209699"
+  },
+  {
+    "app_id": "hr_support",
+    "task_type": "hiring_decision",
+    "cost": 0.0,
+    "timestamp": "1788083906.2498965"
+  },
+  {
+    "app_id": "hr_support",
+    "task_type": "hiring_decision",
+    "cost": 0.0,
+    "timestamp": "1788083906.2989442"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788083906.33818"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788083906.3759885"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788083906.4154944"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788083906.427406"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788083906.4380805"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788083906.4485064"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788083906.4592369"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.05,
+    "timestamp": "1788083906.4699"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788083906.5069852"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 1e-05,
+    "timestamp": "1788083906.5489056"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788083906.8335261"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 1e-05,
+    "timestamp": "1788083988.6144772"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788084033.4845912"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788084033.5270813"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788084033.5804079"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788084033.618482"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788084033.6580439"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788084033.701156"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788084033.7402785"
+  },
+  {
+    "app_id": "hr_support",
+    "task_type": "hiring_decision",
+    "cost": 0.0,
+    "timestamp": "1788084033.7810042"
+  },
+  {
+    "app_id": "hr_support",
+    "task_type": "hiring_decision",
+    "cost": 0.0,
+    "timestamp": "1788084033.8232272"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788084033.8623655"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788084033.902837"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788084033.9416673"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788084033.9547582"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788084033.965576"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788084033.9761772"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788084033.984112"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.05,
+    "timestamp": "1788084033.9960518"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788084034.0326593"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 1e-05,
+    "timestamp": "1788084034.0725474"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788084034.1142077"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788084089.3587828"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788084089.4021163"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788084089.4496534"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788084089.4895935"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788084089.5295224"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788084089.5826006"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788084089.6278713"
+  },
+  {
+    "app_id": "hr_support",
+    "task_type": "hiring_decision",
+    "cost": 0.0,
+    "timestamp": "1788084089.6746995"
+  },
+  {
+    "app_id": "hr_support",
+    "task_type": "hiring_decision",
+    "cost": 0.0,
+    "timestamp": "1788084089.7175033"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788084089.758218"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788084089.7994583"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788084089.839798"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788084089.8530078"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788084089.8655844"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788084089.8778915"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788084089.8901765"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.05,
+    "timestamp": "1788084089.9052496"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788084089.9443457"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 1e-05,
+    "timestamp": "1788084089.9864373"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788084090.0291874"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788084106.8606396"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788084130.3756192"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788084130.4194226"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788084130.45016"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788084130.4635544"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788084130.4761293"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788084154.9093554"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788084154.9545546"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788084154.9763448"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788084154.9885964"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788084155.0004265"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788084172.564736"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788084172.6108644"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788084172.6651988"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788084172.7126935"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788084172.758821"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788084172.8042555"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788084172.8518145"
+  },
+  {
+    "app_id": "hr_support",
+    "task_type": "hiring_decision",
+    "cost": 0.0,
+    "timestamp": "1788084172.8964307"
+  },
+  {
+    "app_id": "hr_support",
+    "task_type": "hiring_decision",
+    "cost": 0.0,
+    "timestamp": "1788084172.9443276"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788084172.991878"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788084173.0351646"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788084173.0812042"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788084173.0958626"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788084173.1088767"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788084173.1226554"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788084173.1356184"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.05,
+    "timestamp": "1788084173.1487737"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788084173.1908472"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 1e-05,
+    "timestamp": "1788084173.2322664"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788084173.280375"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788084562.0212283"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788085416.7819366"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788085416.8205664"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788085416.834749"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788085416.8475525"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788085416.8600206"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788085416.8728912"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788085416.892763"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788085416.9053254"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788085416.9183452"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788085416.9307964"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788085416.944096"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788085416.9571042"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788085416.9701169"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788085416.9832885"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788085416.993744"
+  },
+  {
+    "app_id": "hr_support",
+    "task_type": "hiring_decision",
+    "cost": 0.0001,
+    "timestamp": "1788085417.0076199"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788085417.020407"
+  },
+  {
+    "app_id": "hr_support",
+    "task_type": "hiring_decision",
+    "cost": 0.0001,
+    "timestamp": "1788085417.0330403"
+  },
+  {
+    "app_id": "hr_support",
+    "task_type": "hiring_decision",
+    "cost": 0.0001,
+    "timestamp": "1788085417.0453472"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788085417.0576708"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788085417.075325"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788085417.0877619"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788085417.0997381"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788085417.1122942"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.05,
+    "timestamp": "1788085417.124356"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788085417.1366217"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788085417.1488671"
+  },
+  {
+    "app_id": "hr_support",
+    "task_type": "hiring_decision",
+    "cost": 0.0001,
+    "timestamp": "1788085417.1591825"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788085417.1718838"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788085433.4840293"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788085433.5542352"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788085433.5761988"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788085433.5978596"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788085433.6202087"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788085433.6429043"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788085433.6765852"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788085433.734263"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788085433.7592738"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788085433.789165"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788085433.811233"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788085433.8315415"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788085433.8533177"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788085433.8741064"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788085433.8953655"
+  },
+  {
+    "app_id": "hr_support",
+    "task_type": "hiring_decision",
+    "cost": 0.0001,
+    "timestamp": "1788085433.933352"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788085433.9707391"
+  },
+  {
+    "app_id": "hr_support",
+    "task_type": "hiring_decision",
+    "cost": 0.0001,
+    "timestamp": "1788085433.995295"
+  },
+  {
+    "app_id": "hr_support",
+    "task_type": "hiring_decision",
+    "cost": 0.0001,
+    "timestamp": "1788085434.0206304"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788085434.043117"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788085434.0651717"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788085434.094691"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788085434.1203241"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788085434.1456764"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.05,
+    "timestamp": "1788085434.1721525"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788085434.193037"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788085434.216416"
+  },
+  {
+    "app_id": "hr_support",
+    "task_type": "hiring_decision",
+    "cost": 0.0001,
+    "timestamp": "1788085434.2387629"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788085434.2666128"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788085512.0539875"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788085512.0857518"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788085512.0974803"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788085512.1124158"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788085512.126019"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788085512.1405594"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788085512.1530595"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788085512.1673055"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788085512.180875"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788085512.1946886"
+  },
+  {
+    "app_id": "default",
+    "task_type": "general_qa",
+    "cost": 0.0001,
+    "timestamp": "1788085512.2082205"
+  },
+  {
+    "app_id": "default",
+    "task_type": "general_qa",
+    "cost": 0.0001,
+    "timestamp": "1788085512.230276"
+  },
+  {
+    "app_id": "default",
+    "task_type": "general_qa",
+    "cost": 0.0001,
+    "timestamp": "1788085512.2503579"
+  },
+  {
+    "app_id": "default",
+    "task_type": "general_qa",
+    "cost": 0.0001,
+    "timestamp": "1788085512.2698653"
+  },
+  {
+    "app_id": "default",
+    "task_type": "general_qa",
+    "cost": 0.0001,
+    "timestamp": "1788085512.2839456"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788085512.2977898"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788085512.3123121"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788085512.3256545"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788085512.3399668"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788085512.353297"
+  },
+  {
+    "app_id": "hr_support",
+    "task_type": "hiring_decision",
+    "cost": 0.0001,
+    "timestamp": "1788085512.36835"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788085512.3794878"
+  },
+  {
+    "app_id": "hr_support",
+    "task_type": "hiring_decision",
+    "cost": 0.0001,
+    "timestamp": "1788085512.39759"
+  },
+  {
+    "app_id": "hr_support",
+    "task_type": "hiring_decision",
+    "cost": 0.0001,
+    "timestamp": "1788085512.4117181"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788085512.4271512"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788085512.443325"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788085512.4585118"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788085512.4728627"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788085512.4870837"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.05,
+    "timestamp": "1788085512.498442"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788085512.511418"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788085512.527754"
+  },
+  {
+    "app_id": "default",
+    "task_type": "general_qa",
+    "cost": 0.0001,
+    "timestamp": "1788085512.544281"
+  },
+  {
+    "app_id": "hr_support",
+    "task_type": "hiring_decision",
+    "cost": 0.0001,
+    "timestamp": "1788085512.5608919"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788085512.5783477"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788085794.9771533"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.002,
+    "timestamp": "1788085795.0092258"
+  },
+  {
+    "app_id": "default",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788085795.0261042"
+  },
+  {
+    "app_id": "default",
+    "task_type": "general_qa",
+    "cost": 0.002,
+    "timestamp": "1788085795.0399308"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788089109.2851138"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788089109.5047078"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788089109.729466"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788089109.9073608"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788089110.0586774"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788089110.2143238"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788089110.3584676"
+  },
+  {
+    "app_id": "hr_support",
+    "task_type": "hiring_decision",
+    "cost": 0.0,
+    "timestamp": "1788089110.5055869"
+  },
+  {
+    "app_id": "hr_support",
+    "task_type": "hiring_decision",
+    "cost": 0.0,
+    "timestamp": "1788089110.6743066"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788089110.7884982"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788089111.0166032"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788089111.2695062"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788089111.4202788"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 1e-05,
+    "timestamp": "1788089111.5827274"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788089112.193443"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788089134.7489178"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788089134.8335407"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788089134.9302633"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788089134.9989724"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788089135.0754364"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788089135.1492841"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788089135.229871"
+  },
+  {
+    "app_id": "hr_support",
+    "task_type": "hiring_decision",
+    "cost": 0.0,
+    "timestamp": "1788089135.3043332"
+  },
+  {
+    "app_id": "hr_support",
+    "task_type": "hiring_decision",
+    "cost": 0.0,
+    "timestamp": "1788089135.3788989"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788089135.4671218"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788089135.5655863"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788089135.6561787"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788089135.7040186"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788089135.743989"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788089135.7709363"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788089135.8065205"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.05,
+    "timestamp": "1788089135.8338926"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788089135.9190683"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 1e-05,
+    "timestamp": "1788089136.016094"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788089136.1076255"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788089192.6662376"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788089192.7638054"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788089192.8609881"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788089192.9190862"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788089193.000174"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788089193.0955617"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788089193.186077"
+  },
+  {
+    "app_id": "hr_support",
+    "task_type": "hiring_decision",
+    "cost": 0.0,
+    "timestamp": "1788089193.327244"
+  },
+  {
+    "app_id": "hr_support",
+    "task_type": "hiring_decision",
+    "cost": 0.0,
+    "timestamp": "1788089193.5570645"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788089193.7469523"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788089193.9371724"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788089194.1568913"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788089194.24024"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788089194.310067"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788089194.3877516"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788089194.480531"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.05,
+    "timestamp": "1788089194.5407774"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788089194.7104695"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 1e-05,
+    "timestamp": "1788089198.4581473"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788089198.608431"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788089252.490872"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788089252.5856159"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788089252.6815636"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788089252.7492387"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788089252.8392093"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788089252.9043748"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788089252.972269"
+  },
+  {
+    "app_id": "hr_support",
+    "task_type": "hiring_decision",
+    "cost": 0.0,
+    "timestamp": "1788089253.04475"
+  },
+  {
+    "app_id": "hr_support",
+    "task_type": "hiring_decision",
+    "cost": 0.0,
+    "timestamp": "1788089253.1101887"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788089253.1938584"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788089253.2911246"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788089253.3601031"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788089253.391322"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788089253.4097667"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788089253.4359019"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788089253.460944"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.05,
+    "timestamp": "1788089253.4946818"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788089253.571519"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788089253.7178273"
+  },
+  {
+    "app_id": "default",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788089253.8159664"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788089253.9635298"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788089254.0421982"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 1e-05,
+    "timestamp": "1788089254.1060412"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788089254.1611702"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788089888.5859437"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788091444.9254274"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788091604.5230646"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788091627.2052336"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788091650.8467"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788102863.8004036"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788102863.9098551"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788102863.9798238"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788102864.0359538"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788102864.0879219"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788102864.1393685"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788102864.1916206"
+  },
+  {
+    "app_id": "hr_support",
+    "task_type": "hiring_decision",
+    "cost": 0.0,
+    "timestamp": "1788102864.2535756"
+  },
+  {
+    "app_id": "hr_support",
+    "task_type": "hiring_decision",
+    "cost": 0.0,
+    "timestamp": "1788102864.3109448"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788102864.364471"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788102864.4450645"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788102864.5019264"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788102864.5218904"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788102864.539426"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788102864.5559208"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788102864.5750437"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.05,
+    "timestamp": "1788102864.5967412"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788102864.6451917"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788102864.7086282"
+  },
+  {
+    "app_id": "default",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788102864.7679222"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788102865.3185267"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788102865.8119137"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 1e-05,
+    "timestamp": "1788102865.8752315"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788102865.946812"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788102990.7813532"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788102990.8351657"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788102990.8539376"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788102990.8738198"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788102990.892939"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788102990.910395"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788102990.9330554"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788102990.95151"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788102990.9677482"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788102990.9871588"
+  },
+  {
+    "app_id": "default",
+    "task_type": "general_qa",
+    "cost": 0.0001,
+    "timestamp": "1788102991.003969"
+  },
+  {
+    "app_id": "default",
+    "task_type": "general_qa",
+    "cost": 0.0001,
+    "timestamp": "1788102991.0291696"
+  },
+  {
+    "app_id": "default",
+    "task_type": "general_qa",
+    "cost": 0.0001,
+    "timestamp": "1788102991.0616233"
+  },
+  {
+    "app_id": "default",
+    "task_type": "general_qa",
+    "cost": 0.0001,
+    "timestamp": "1788102991.089445"
+  },
+  {
+    "app_id": "default",
+    "task_type": "general_qa",
+    "cost": 0.0001,
+    "timestamp": "1788102991.1071355"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788102991.1257734"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788102991.1441157"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788102991.1629932"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788102991.180689"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788102991.1986043"
+  },
+  {
+    "app_id": "hr_support",
+    "task_type": "hiring_decision",
+    "cost": 0.0001,
+    "timestamp": "1788102991.216519"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788102991.2340362"
+  },
+  {
+    "app_id": "hr_support",
+    "task_type": "hiring_decision",
+    "cost": 0.0001,
+    "timestamp": "1788102991.25129"
+  },
+  {
+    "app_id": "hr_support",
+    "task_type": "hiring_decision",
+    "cost": 0.0001,
+    "timestamp": "1788102991.2692225"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788102991.2862573"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788102991.3042655"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788102991.3215358"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788102991.3399022"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788102991.3575068"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.05,
+    "timestamp": "1788102991.375086"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788102991.3922205"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788102991.4100003"
+  },
+  {
+    "app_id": "default",
+    "task_type": "general_qa",
+    "cost": 0.0001,
+    "timestamp": "1788102991.4270787"
+  },
+  {
+    "app_id": "hr_support",
+    "task_type": "hiring_decision",
+    "cost": 0.0001,
+    "timestamp": "1788102991.4451997"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788102991.4627755"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788103030.9453845"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788103031.0722866"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788103031.192408"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788103031.2725425"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788103031.3502316"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788103031.431169"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788103031.5147903"
+  },
+  {
+    "app_id": "hr_support",
+    "task_type": "hiring_decision",
+    "cost": 0.0,
+    "timestamp": "1788103031.622507"
+  },
+  {
+    "app_id": "hr_support",
+    "task_type": "hiring_decision",
+    "cost": 0.0,
+    "timestamp": "1788103031.7036853"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788103031.786497"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788103031.864775"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788103031.9406502"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788103031.9763622"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788103032.0059235"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788103032.0361335"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788103032.064215"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.05,
+    "timestamp": "1788103032.0927756"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788103032.1687295"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788103032.291745"
+  },
+  {
+    "app_id": "default",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788103032.4024255"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788103041.9107814"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788103043.7075377"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 1e-05,
+    "timestamp": "1788103043.8060067"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788103043.8836677"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788103073.3564212"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788103073.437925"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788103073.4973342"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788103073.5566337"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788103073.6070466"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788103073.6589847"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788103073.7188022"
+  },
+  {
+    "app_id": "hr_support",
+    "task_type": "hiring_decision",
+    "cost": 0.0,
+    "timestamp": "1788103073.773824"
+  },
+  {
+    "app_id": "hr_support",
+    "task_type": "hiring_decision",
+    "cost": 0.0,
+    "timestamp": "1788103073.8316822"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788103073.885705"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788103073.939103"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788103073.9941857"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788103074.0166047"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788103074.037797"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788103074.0571444"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788103074.0776215"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.05,
+    "timestamp": "1788103074.098928"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788103074.1481507"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788103074.216438"
+  },
+  {
+    "app_id": "default",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788103074.2777107"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788103085.3721476"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788103085.4416745"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 1e-05,
+    "timestamp": "1788103085.4845538"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788103085.5353272"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788103250.2555592"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788103250.3030539"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788103250.3202875"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788103250.339145"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788103250.3584113"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788103250.3771894"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788103250.3994641"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788103250.4185789"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788103250.4375515"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788103250.456468"
+  },
+  {
+    "app_id": "default",
+    "task_type": "general_qa",
+    "cost": 0.0001,
+    "timestamp": "1788103250.4756289"
+  },
+  {
+    "app_id": "default",
+    "task_type": "general_qa",
+    "cost": 0.0001,
+    "timestamp": "1788103250.502035"
+  },
+  {
+    "app_id": "default",
+    "task_type": "general_qa",
+    "cost": 0.0001,
+    "timestamp": "1788103250.5337582"
+  },
+  {
+    "app_id": "default",
+    "task_type": "general_qa",
+    "cost": 0.0001,
+    "timestamp": "1788103250.5620494"
+  },
+  {
+    "app_id": "default",
+    "task_type": "general_qa",
+    "cost": 0.0001,
+    "timestamp": "1788103250.5810618"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788103250.6002717"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788103250.6195893"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788103250.639444"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788103250.6593444"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788103250.6779783"
+  },
+  {
+    "app_id": "hr_support",
+    "task_type": "hiring_decision",
+    "cost": 0.0001,
+    "timestamp": "1788103250.6975858"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788103250.717774"
+  },
+  {
+    "app_id": "hr_support",
+    "task_type": "hiring_decision",
+    "cost": 0.0001,
+    "timestamp": "1788103250.7384255"
+  },
+  {
+    "app_id": "hr_support",
+    "task_type": "hiring_decision",
+    "cost": 0.0001,
+    "timestamp": "1788103250.758453"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788103250.778218"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788103250.7976632"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788103250.8166754"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788103250.8366282"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788103250.85633"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.05,
+    "timestamp": "1788103250.8767338"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788103250.8983073"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788103250.919384"
+  },
+  {
+    "app_id": "default",
+    "task_type": "general_qa",
+    "cost": 0.0001,
+    "timestamp": "1788103250.9407232"
+  },
+  {
+    "app_id": "hr_support",
+    "task_type": "hiring_decision",
+    "cost": 0.0001,
+    "timestamp": "1788103250.964298"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788103250.9841325"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788103412.6363726"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788103412.7472076"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788103412.812731"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788103412.8693683"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788103412.9245617"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788103412.9744377"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788103413.0412226"
+  },
+  {
+    "app_id": "hr_support",
+    "task_type": "hiring_decision",
+    "cost": 0.0,
+    "timestamp": "1788103413.0971963"
+  },
+  {
+    "app_id": "hr_support",
+    "task_type": "hiring_decision",
+    "cost": 0.0,
+    "timestamp": "1788103413.1574962"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788103413.214637"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788103413.26909"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788103413.3291166"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788103413.3534443"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788103413.3773148"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788103413.401191"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788103413.425222"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.05,
+    "timestamp": "1788103413.4470944"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788103413.5035508"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788103413.5758646"
+  },
+  {
+    "app_id": "default",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788103413.6338215"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788103423.4562414"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788103423.5138574"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 1e-05,
+    "timestamp": "1788103423.5726643"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788103423.6335268"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788103575.0718477"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788103575.1767423"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788103575.240396"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788103575.2920556"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788103575.345072"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788103575.4022627"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788103575.4791582"
+  },
+  {
+    "app_id": "hr_support",
+    "task_type": "hiring_decision",
+    "cost": 0.0,
+    "timestamp": "1788103575.5392158"
+  },
+  {
+    "app_id": "hr_support",
+    "task_type": "hiring_decision",
+    "cost": 0.0,
+    "timestamp": "1788103575.6080263"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788103575.665955"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788103575.7235565"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788103575.7795687"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788103575.8042254"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788103575.8260462"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788103575.8474889"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788103575.8716893"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.05,
+    "timestamp": "1788103575.894057"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788103575.9434688"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788103576.017956"
+  },
+  {
+    "app_id": "default",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788103576.0757353"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788103593.9403002"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788103594.3684819"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 1e-05,
+    "timestamp": "1788103594.445339"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788103594.501321"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788103620.205531"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788103620.2893481"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788103620.357227"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788103620.4077096"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788103620.4635925"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788103620.5191844"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788103620.591945"
+  },
+  {
+    "app_id": "hr_support",
+    "task_type": "hiring_decision",
+    "cost": 0.0,
+    "timestamp": "1788103620.656193"
+  },
+  {
+    "app_id": "hr_support",
+    "task_type": "hiring_decision",
+    "cost": 0.0,
+    "timestamp": "1788103620.7264545"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788103620.7922225"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788103620.8462825"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788103620.9004421"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788103620.9241679"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788103620.945472"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788103620.9672873"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788103620.9892602"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.05,
+    "timestamp": "1788103621.011332"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788103621.0644195"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788103621.127186"
+  },
+  {
+    "app_id": "default",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788103621.1828964"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788103639.0933206"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788103639.1985517"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 1e-05,
+    "timestamp": "1788103639.2892005"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788103639.3798356"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788103940.6951826"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788103940.791846"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788103940.853006"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788103940.9030285"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788103940.9637144"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788103941.0194318"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788103941.0904212"
+  },
+  {
+    "app_id": "hr_support",
+    "task_type": "hiring_decision",
+    "cost": 0.0,
+    "timestamp": "1788103941.1403048"
+  },
+  {
+    "app_id": "hr_support",
+    "task_type": "hiring_decision",
+    "cost": 0.0,
+    "timestamp": "1788103941.1887834"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788103941.2479334"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788103941.2989247"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788103941.3476195"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788103941.3722274"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788103941.3933363"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788103941.414468"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788103941.4345117"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.05,
+    "timestamp": "1788103941.4533906"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788103941.5001404"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788103941.574685"
+  },
+  {
+    "app_id": "default",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788103941.6361687"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788103960.1553037"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788103960.2412465"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 1e-05,
+    "timestamp": "1788103960.320486"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788103960.3799725"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788104358.8716037"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788104358.9771779"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788104359.041808"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788104359.1095924"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788104359.1694224"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788104359.2290173"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788104359.300694"
+  },
+  {
+    "app_id": "hr_support",
+    "task_type": "hiring_decision",
+    "cost": 0.0,
+    "timestamp": "1788104359.3576803"
+  },
+  {
+    "app_id": "hr_support",
+    "task_type": "hiring_decision",
+    "cost": 0.0,
+    "timestamp": "1788104359.414592"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788104359.4770365"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788104359.5348654"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788104359.598357"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788104359.6246912"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788104359.6471634"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788104359.6711924"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788104359.696023"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.05,
+    "timestamp": "1788104359.720971"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788104359.7769399"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788104359.8495038"
+  },
+  {
+    "app_id": "default",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788104359.9215982"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788104378.3363736"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788104378.4240427"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 1e-05,
+    "timestamp": "1788104378.4763575"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788104378.5319624"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788104516.0875137"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788104516.1408472"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788104516.1717355"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788104516.1955307"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788104516.2184563"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788105409.1402729"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788105409.3775005"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788105409.537535"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788105409.706118"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788105409.8518054"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788105409.9563286"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788105410.067435"
+  },
+  {
+    "app_id": "hr_support",
+    "task_type": "hiring_decision",
+    "cost": 0.0,
+    "timestamp": "1788105410.1881073"
+  },
+  {
+    "app_id": "hr_support",
+    "task_type": "hiring_decision",
+    "cost": 0.0,
+    "timestamp": "1788105410.3055804"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788105410.418545"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788105410.5172532"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788105410.6256876"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788105410.6878448"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788105410.7372394"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788105410.788497"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788105410.8328745"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.05,
+    "timestamp": "1788105410.8783844"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788105410.9981484"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788105411.1287522"
+  },
+  {
+    "app_id": "default",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788105411.2739208"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788105432.7076108"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788105432.8815227"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 1e-05,
+    "timestamp": "1788105433.0283573"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788105433.2969139"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788106068.6894808"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788106068.7588522"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788106068.8226612"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788106068.8737977"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788106068.923864"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788106068.9928794"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788106069.0610723"
+  },
+  {
+    "app_id": "hr_support",
+    "task_type": "hiring_decision",
+    "cost": 0.0,
+    "timestamp": "1788106069.112933"
+  },
+  {
+    "app_id": "hr_support",
+    "task_type": "hiring_decision",
+    "cost": 0.0,
+    "timestamp": "1788106069.168947"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788106069.2179275"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788106069.2731638"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788106069.3226838"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788106069.348186"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788106069.3676934"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788106069.3913736"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0001,
+    "timestamp": "1788106069.4159138"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.05,
+    "timestamp": "1788106069.4394062"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788106069.488582"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788106069.5563958"
+  },
+  {
+    "app_id": "default",
+    "task_type": "general_qa",
+    "cost": 0.0,
+    "timestamp": "1788106069.6155026"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788106081.5058343"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788106081.5865333"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 1e-05,
+    "timestamp": "1788106081.641677"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788106081.6955497"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788106137.638738"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788106177.6847029"
+  },
+  {
+    "app_id": "finance_support",
+    "task_type": "financial_qa",
+    "cost": 0.0,
+    "timestamp": "1788106583.5572572"
+  }
+]

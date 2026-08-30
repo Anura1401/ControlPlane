@@ -16,3 +16,4 @@ pytest
 httpx
 pytest-asyncio
 google-generativeai
+google-genai

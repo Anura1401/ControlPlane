@@ -1,0 +1,23 @@
+{
+  "0": {
+    "document_id": "doc_finance",
+    "chunk_id": "chunk_0",
+    "text": "Company X acquired Company Y for $1.4B in 2025.",
+    "metadata": {},
+    "app_id": "finance_support"
+  },
+  "1": {
+    "document_id": "doc_finance_rev",
+    "chunk_id": "chunk_0",
+    "text": "Quarterly revenue for the fiscal year was $10B.",
+    "metadata": {},
+    "app_id": "finance_support"
+  },
+  "2": {
+    "document_id": "doc_hr",
+    "chunk_id": "chunk_0",
+    "text": "Employee headcount at Company X was 12,000 as of last year.",
+    "metadata": {},
+    "app_id": "finance_support"
+  }
+}
